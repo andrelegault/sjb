@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sjb/screens/home_screen.dart';
+import 'package:sjb/screens/listings_screen.dart';
 import 'package:sjb/screens/login_screen.dart';
 
 void main() {
@@ -15,6 +16,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => LoginScreen(),
+        // '/register' => RegisterScreen(),
+        '/listings': (context) => ListingsScreen(),
         '/home': (context) => HomeScreen(),
       },
       theme: ThemeData(
