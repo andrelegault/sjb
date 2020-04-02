@@ -1,0 +1,107 @@
+[
+    {
+        "title": "Research Intern",
+        "employer": "Google Inc.",
+        "listed_on": "2020/03/01",
+        "expires": "",
+        "logo": "assets/images/logos/google.png",
+        "employer_description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies, alongside Amazon, Apple, and Microsoft.",
+        "requirements": {
+            "minimal": [
+                "Currently enrolled in a Bachelor's, Master's or PhD degree in Computer Science, Linguistics, Statistics, Biostatistics, Applied Mathematics, Operations Research, Economics, Natural Sciences or a related technical field.",
+                "Experience in one or more areas of computer science, such as Natural Language Understanding, Neural Networks, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Data Science, Privacy, Trust & Safety, Software Engineering or similar.",
+                "Experience with one or more general purpose programming languages including: C/C++, Java, MATLAB, Go or Python."
+            ],
+            "preferred": [
+                "Returning to a degree program after completion of the internship.",
+                "Relevant work experience, including internships, full time industry experience or as a researcher in a lab.",
+                "Ability to design and execute a research agenda.",
+                "Contribution to research communities and/or efforts, including publishing papers (i.e. being listed as author) in major conferences or journals."
+            ]
+        },
+        "responsibilities": [
+            "Participate in cutting edge research to develop solutions for real-world, large-scale problems."
+        ],
+        "link": "https://careers.google.com/jobs/results/93641836565799622/"
+    },
+    {
+        "title": "Software Developer Intern, BS, Fall",
+        "employer": "Google Inc.",
+        "listed_on": "2020/03/02",
+        "expires": "2020/04/03",
+        "logo": "assets/images/logos/google.png",
+        "employer_description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies, alongside Amazon, Apple, and Microsoft.",
+        "requirements": {
+            "minimal": [
+                "Currently enrolled in a Bachelor's degree program in Computer Science, or related technical field.",
+                "Experience in Software Development and coding in a general purpose programming language.",
+                "Examples of coding in one of the following programming languages including but not limited to: C, C++, Java, JavaScript, or Python."
+            ],
+            "preferred": [
+                "Returning to a degree program after completion of the internship.",
+                "Previous tech internships or relevant work experience programming in one of the following languages, as well as demonstrated experience programming in two or more of the languages including but not limited to: C, C++, C#, Java, JavaScript, Go or Python.",
+                "Experience with Data Structures or Algorithms (i.e. completing a data structures or algorithms class, coursework, course projects, research, individual projects, internships, or other practical experience inside or outside of school or work (including open source hobby coding).",
+                "Experience working with some of the following: web application development, Unix/Linux environments, mobile application development, distributed and parallel systems, machine learning, information retrieval, natural language processing, networking, developing large software systems, and/or security software development.",
+                "Interest and ability to learn other coding languages as needed.",
+                "Ability to speak and write in English fluently and idiomatically."
+            ]
+        },
+        "responsibilities": [
+            "Apply knowledge gained in computer science courses to real-world problems.",
+            "Analyze information and evaluate results to choose the best solution to effectively solve problems.",
+            "Develop scripts to automate routine tasks.",
+            "Create and support an productive and innovative team. This includes working with peers, managers, and teams."
+        ],
+        "link": "https://careers.google.com/jobs/results/97260141226664646/"
+    },
+    {
+        "title": "Research Intern",
+        "employer": "Google Inc.",
+        "listed_on": "2020/03/01",
+        "expires": "",
+        "logo": "assets/images/logos/google.png",
+        "employer_description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies, alongside Amazon, Apple, and Microsoft.",
+        "requirements": {
+            "minimal": [
+                "Currently enrolled in a Bachelor's, Master's or PhD degree in Computer Science, Linguistics, Statistics, Biostatistics, Applied Mathematics, Operations Research, Economics, Natural Sciences or a related technical field.",
+                "Experience in one or more areas of computer science, such as Natural Language Understanding, Neural Networks, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Data Science, Privacy, Trust & Safety, Software Engineering or similar.",
+                "Experience with one or more general purpose programming languages including: C/C++, Java, MATLAB, Go or Python."
+            ],
+            "preferred": [
+                "Returning to a degree program after completion of the internship.",
+                "Relevant work experience, including internships, full time industry experience or as a researcher in a lab.",
+                "Ability to design and execute a research agenda.",
+                "Contribution to research communities and/or efforts, including publishing papers (i.e. being listed as author) in major conferences or journals."
+            ]
+        },
+        "responsibilities": [
+            "Participate in cutting edge research to develop solutions for real-world, large-scale problems."
+        ],
+        "link": "https://careers.google.com/jobs/results/93641836565799622/"
+    },
+    {
+        "title": "Research Intern",
+        "employer": "Google Inc.",
+        "listed_on": "2020/03/01",
+        "expires": "",
+        "logo": "assets/images/logos/google.png",
+        "employer_description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies, alongside Amazon, Apple, and Microsoft.",
+        "requirements": {
+            "minimal": [
+                "Currently enrolled in a Bachelor's, Master's or PhD degree in Computer Science, Linguistics, Statistics, Biostatistics, Applied Mathematics, Operations Research, Economics, Natural Sciences or a related technical field.",
+                "Experience in one or more areas of computer science, such as Natural Language Understanding, Neural Networks, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Data Science, Privacy, Trust & Safety, Software Engineering or similar.",
+                "Experience with one or more general purpose programming languages including: C/C++, Java, MATLAB, Go or Python."
+            ],
+            "preferred": [
+                "Returning to a degree program after completion of the internship.",
+                "Relevant work experience, including internships, full time industry experience or as a researcher in a lab.",
+                "Ability to design and execute a research agenda.",
+                "Contribution to research communities and/or efforts, including publishing papers (i.e. being listed as author) in major conferences or journals."
+            ]
+        },
+        "responsibilities": [
+            "Participate in cutting edge research to develop solutions for real-world, large-scale problems."
+        ],
+        "link": "https://careers.google.com/jobs/results/93641836565799622/"
+    }
+]
