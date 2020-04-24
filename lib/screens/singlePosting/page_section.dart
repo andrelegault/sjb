@@ -13,7 +13,8 @@ class PageSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(16),
+      color: Colors.cyan[700],
+      padding: const EdgeInsets.fromLTRB(16, 10, 16, 10), //left, top, right, bottom
       child: Row(
         children: [
           Expanded(
@@ -21,7 +22,7 @@ class PageSection extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Container(
-                  color: Colors.yellow[200],
+//                  color: Colors.yellow[200],
                   padding: const EdgeInsets.only(bottom: 4),
                   child: Text(
                     title,
@@ -33,7 +34,7 @@ class PageSection extends StatelessWidget {
                 Text(
                   description,
                   style: TextStyle(
-                    color: Colors.grey[500],
+                    color: Colors.white,
                   ),
                 ),
               ],

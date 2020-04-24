@@ -1,7 +1,8 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:sjb/screens/singlePosting/page_section.dart';
-import '../../models/posting.dart';
+import '../../models/listing.dart';
+import 'package:sjb/screens/singlePosting/buttons_section.dart';
 
 class SingleListingScreen extends StatelessWidget {
   static const routeName = 'single-post';
@@ -11,24 +12,25 @@ class SingleListingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    PageSection titleSection = PageSection(title: posting.title, description: posting.location);
-    PageSection descriptionSection = PageSection(title: 'Job Description', description: posting.description);
-    PageSection requirementSection = PageSection(title: 'Minimal Requirements', description: posting.description);
-    PageSection preferredSection = PageSection(title: 'Preferred Qualifications', description: posting.description);
 
     return Scaffold(
-        appBar: AppBar(title: Text(posting.employer),),
-        body: SingleChildScrollView(
-          child:
-            Column(
-            children: [
-              titleSection,
-              descriptionSection,
-              requirementSection,
-              preferredSection,
-            ]
+        appBar: AppBar(
+
+          title: Text(posting.employer),),
+        body:
+          SingleChildScrollView(
+            child:
+              Column(
+              children: [
+                ButtonSection(color: Colors.black),
+                PageSection(title: posting.title, description: posting.location),
+                PageSection(title: 'Job Description', description: posting.description),
+                PageSection(title: 'Minimal Requirements', description: posting.description),
+                PageSection(title: 'Preferred Qualifications', description: posting.description)
+              ]
+            )
           )
-        )
+
     );
   }
 }

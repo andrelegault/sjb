@@ -3,7 +3,7 @@ import 'package:sjb/screens/home_screen.dart';
 import 'package:sjb/screens/listings_screen.dart';
 import 'package:sjb/screens/login_screen.dart';
 import 'package:sjb/screens/singlePosting/single_listing_screen.dart';
-import 'package:sjb/models/posting.dart';
+import 'package:sjb/models/listing.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,8 +22,6 @@ class MyApp extends StatelessWidget {
       url: 'Sample URL'
   );
 
-
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -32,10 +30,9 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => LoginScreen(),
         // '/register' => RegisterScreen(),
-//        '/listings': (context) => ListingsScreen(),
-        '/listings': (context) => SingleListingScreen(samplePost),
+        '/listings': (context) => ListingsScreen(),
+//        '/listings': (context) => SingleListingScreen(samplePost),
         '/home': (context) => HomeScreen(),
-        SingleListingScreen.routeName: (context) => SingleListingScreen(samplePost)
       },
       theme: ThemeData(
         // This is the theme of your application.
