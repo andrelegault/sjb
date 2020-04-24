@@ -13,15 +13,21 @@ class SingleListingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     PageSection titleSection = PageSection(title: posting.title, description: posting.location);
     PageSection descriptionSection = PageSection(title: 'Job Description', description: posting.description);
-    PageSection requirementSection = PageSection(title: 'Requirements', description: posting.description);
+    PageSection requirementSection = PageSection(title: 'Minimal Requirements', description: posting.description);
+    PageSection preferredSection = PageSection(title: 'Preferred Qualifications', description: posting.description);
+
     return Scaffold(
         appBar: AppBar(title: Text(posting.employer),),
-        body: Column(
-          children: [
-            titleSection,
-            descriptionSection,
-
-          ]
+        body: SingleChildScrollView(
+          child:
+            Column(
+            children: [
+              titleSection,
+              descriptionSection,
+              requirementSection,
+              preferredSection,
+            ]
+          )
         )
     );
   }
