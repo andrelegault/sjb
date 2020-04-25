@@ -49,6 +49,22 @@ flutter:
     - assets/images/
     - assets/images/logos/google.png
     - assets/data/sample_listings.json
+    - assets/images/logos/mobeewave.png
+    - assets/images/logos/maxim.png
+    - assets/images/logos/matrox.jpeg
+    - assets/images/logos/nologo.png
+    - assets/images/logos/appx.png
+    - assets/images/logos/bigbangerp.jpeg
+    - assets/images/logos/planetrate.jpeg
+    - assets/images/logos/sap.jpeg
+    - assets/images/logos/workland.jpeg
+    - assets/images/logos/maya.png
+    - assets/images/logos/hitachi.png
+    - assets/images/logos/sgc.png
+    - assets/images/logos/autodesk.jpg
+    - assets/images/logos/sap.jpeg
+    - assets/images/logos/aruba.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
