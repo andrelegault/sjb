@@ -1,21 +1,33 @@
+import 'package:flutter/material.dart';
+
 /// User model represents a user signing up
-class User {
-  final String firstName;
-  final String lastName;
-  final DateTime dob;
-  final String city;
-  final String studyField;
-  final PositionStatus positionStatus;
-  final String term;
+class User extends ChangeNotifier {
+  String email;
+  String name;
+  DateTime dob;
+  String city;
+  StudyField studyField;
+  PositionStatus positionStatus;
+  String term;
+
+  bool loginState = false;
+  final List<bool> educationSelection = [true, false];
+  final List<bool> statusSelection = [true, false];
+
+  bool get isLoggedIn => loginState;
 
   User(
-      {this.firstName,
-      this.lastName,
+      {this.name = "John Doe",
       this.dob,
-      this.city,
-      this.studyField,
-      this.positionStatus,
+      this.city = "Montreal",
+      this.studyField = StudyField.soen,
+      this.positionStatus = PositionStatus.full_time,
       this.term});
+}
+
+enum StudyField {
+  finance,
+  soen,
 }
 
 enum PositionStatus {
