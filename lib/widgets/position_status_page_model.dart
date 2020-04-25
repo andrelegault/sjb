@@ -89,6 +89,7 @@ class PositionStatusPageModelState extends State<PositionStatusPageModelView>
                     });
                   }
                 });
+                Navigator.of(context).popAndPushNamed('/home');
               },
               isSelected: isSelected,
             )
