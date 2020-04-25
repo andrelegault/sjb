@@ -1,9 +1,9 @@
 [
     {
         "title": "Research Intern",
-        "location": "Montreal, QC",
         "employer": "Google Inc.",
-        "term": "Winter 2021",
+        "listed_on": "2020/03/01",
+        "expires": "",
         "logo": "assets/images/logos/google.png",
         "employer_description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies, alongside Amazon, Apple, and Microsoft.",
         "requirements": {
@@ -27,8 +27,8 @@
     {
         "title": "Software Developer Intern, BS, Fall",
         "employer": "Google Inc.",
-        "term": "Winter 2021",
-        "location": "Montreal, QC",
+        "listed_on": "2020/03/02",
+        "expires": "2020/04/03",
         "logo": "assets/images/logos/google.png",
         "employer_description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies, alongside Amazon, Apple, and Microsoft.",
         "requirements": {
@@ -57,9 +57,8 @@
     {
         "title": "Research Intern",
         "employer": "Google Inc.",
-        "term": "Winter 2021",
-        "location": "Montreal, QC",
         "listed_on": "2020/03/01",
+        "expires": "",
         "logo": "assets/images/logos/google.png",
         "employer_description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies, alongside Amazon, Apple, and Microsoft.",
         "requirements": {
@@ -81,29 +80,429 @@
         "link": "https://careers.google.com/jobs/results/93641836565799622/"
     },
     {
-        "title": "Research Intern",
-        "employer": "Google Inc.",
-        "location": "Montreal, QC",
-        "listed_on": "2020/03/01",
-        "term": "Winter 2021",
-        "logo": "assets/images/logos/google.png",
-        "employer_description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies, alongside Amazon, Apple, and Microsoft.",
+        "title": "Software Engineering Internship (Android, Security, AWS)",
+        "employer": "Mobeewave",
+        "listed_on": "2020/04/07",
+        "expires": "",
+        "logo": "assets/images/logos/mobeewave.png",
+        "employer_description": "Do you have what it takes to work at the forefront of payment innovation? Join Mobeewave’s team and collaborate with global finance, technology and payment leaders on an acceptance solution that’s disrupting the payment space!",
         "requirements": {
             "minimal": [
-                "Currently enrolled in a Bachelor's, Master's or PhD degree in Computer Science, Linguistics, Statistics, Biostatistics, Applied Mathematics, Operations Research, Economics, Natural Sciences or a related technical field.",
-                "Experience in one or more areas of computer science, such as Natural Language Understanding, Neural Networks, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Data Science, Privacy, Trust & Safety, Software Engineering or similar.",
-                "Experience with one or more general purpose programming languages including: C/C++, Java, MATLAB, Go or Python."
+                "Computer Science/Network Engineering, Engineering, or Mathematics major",
+                "Experience programming in C, Java, Kotlin",
+                "No specific requirement for security, cryptography or even algorithmic complexity but the candidates must be eager to learn and experiment.",
+                "Ideally the candidates should be able to demonstrate some prior work on their own (GitHub) or during other internship."
             ],
             "preferred": [
-                "Returning to a degree program after completion of the internship.",
-                "Relevant work experience, including internships, full time industry experience or as a researcher in a lab.",
-                "Ability to design and execute a research agenda.",
-                "Contribution to research communities and/or efforts, including publishing papers (i.e. being listed as author) in major conferences or journals."
+
             ]
         },
         "responsibilities": [
-            "Participate in cutting edge research to develop solutions for real-world, large-scale problems."
+            "Document and test new software features to expand on an existing proof of concept",
+            "Both side of our solution Android front end and AWS servers back end (C#) will be impacted",
+            "Assess new application ideas",
+            "Develop applications (coding, programming,…)"
         ],
-        "link": "https://careers.google.com/jobs/results/93641836565799622/"
+        "link": "https://jobs.smartrecruiters.com/Mobeewave/743999704080077-software-engineering-internship-android-security-aws-"
+    },
+    {
+        "title": "Software Intern",
+        "employer": "Maxim Integrated",
+        "listed_on": "2020/04/02",
+        "expires": "",
+        "logo": "assets/images/logos/maxim.png",
+        "employer_description": "Want to make a difference and be challenged every day? Then come to Maxim Integrated and be part of a team that pushes the boundaries of what’s possible.",
+        "requirements": {
+            "minimal": [
+                "Pursuing a Bachelor’s or Master's degree in Computer Science or related field"
+            ],
+            "preferred": [
+                "Use of Agile Methodology",
+                "C language",
+                "QT environment"
+            ]
+        },
+        "responsibilities": [
+            "Development of a tool to be used for financial scheme testing.",
+            "Analysis, requirements, specifications, conception, coding and testing.",
+            "Documentation of analysis, requirements and specifications"
+        ],
+        "link": "https://wd1.myworkdaysite.com/en-US/recruiting/maximintegratedproducts/MaximCareers/job/CANADA-MONTREAL/Software-Intern_R8152"
+    },
+    {
+        "title": "Software Intern",
+        "employer": "Matrox",
+        "listed_on": "2019/12/01",
+        "expires": "",
+        "logo": "assets/images/logos/matrox.jpeg",
+        "employer_description": "Matrox Graphics is a leading manufacturer of specialized graphics solutions for professional markets such as finance, digital media, medical imaging, industrial, and enterprise computing. In-house design expertise, top-to-bottom manufacturing, and dedicated customer support make our solutions the premier choice in industries that require stable, high-reliability products.",
+        "requirements": {
+            "minimal": [
+                "Bachelor's degree student in electrical engineering, computer engineering or computer science",
+                "Having completed a minimum of 30 credits and a GPA equal to or greater than 2.9/4.3 or 2.6/4.0",
+                "Experience with C/C++ and associated programming and debugging tools",
+                "Experience with Windows/Linux utilities and user interface"
+            ],
+            "preferred": [
+                "Knowledge in the following areas is considered an asset: Windows/Linux device drivers",
+                "Well organized and detail oriented",
+                "Good verbal and written communication skills in French and English."
+            ]
+        },
+        "responsibilities": [
+            "You will be responsible for code design, development, testing, documentation, and maintenance as assigned by the Software Team Leader.",
+            "Design and implement utilities, or user interface",
+            "Maintain implemented code or existing code to correct reported problems",
+            "Develop tests to verify proper functioning of code",
+            "Document code design and implementation",
+            "Follow established coding procedures and guidelines"
+        ],
+        "link": "https://ca.linkedin.com/jobs/view/intern-software-s-01-19-at-matrox-1728355801?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+        "title": "Software Development Internship",
+        "employer": "Planned",
+        "listed_on": "2020/04/17",
+        "expires": "",
+        "logo": "assets/images/logos/nologo.png",
+        "employer_description": "The future of corporate event planning. From idea to execution, all on a single platform. We're on a mission to disrupt a $500+ billion industry. ",
+        "requirements": {
+            "minimal": [
+                "Report directly to the VP engineering;",
+                "Work on developing internal tools and dashboards in Reactjs using Firebase;",
+                "Work with the development team to test new features;",
+                "Perform interactive and automated testing;",
+                "Ensure feature completeness by evaluating implemented features against required documents;"
+            ],
+            "preferred": [
+                "Organized: we're talking kind of obsessive attention to detail",
+                "Creative: clever problem solver, who is comfortable making decisions and/or collaborating with team members. Not afraid to ask questions, shout ideas or raise concerns.",
+                "Tactical: able to prioritize and juggle multiple projects at once",
+                "Flexible: Willing to work non-traditional hours including weekends/holidays",
+                "Funny: (Or at least receptive) You have a developed sense of humour and resilience",
+                "Excellent organization and communication skills",
+                "You're resourceful, think on your feet, get tech, and learn fast"
+            ]
+        },
+        "responsibilities": [
+            "This internship is for a 12 week program, starting in May 2020 with the opportunity or turning it into a full-time position. You must be available for the full 12 weeks to apply. The position is for 40 hours a week, full-time."
+        ],
+        "link": "https://www.glassdoor.ca/Job/montreal-software-intern-jobs-SRCH_IL.0,8_IC2296722_KO9,24.htm?"
+    },
+    {
+        "title": "Software Engineer Intern (iOS or Android)",
+        "employer": "AppX",
+        "listed_on": "2020/03/01",
+        "expires": "",
+        "logo": "assets/images/logos/appx.png",
+        "employer_description": "We are growing rapidly so you will enjoy working in a fast-paced, fun environment with a team dedicated to our mission to build the largest inluencer platform.",
+        "requirements": {
+            "minimal": [
+                "Create, modify, and test high-quality code",
+                "Collaborate closely with mobile engineering team to define, design, and ship new features.",
+                "Develop prototypes quickly to validate interactions and prove product designs.",
+                "Optimize applications to maximize speed and scale, factoring in mobile network latency and bandwidth constraints."
+            ],
+            "preferred": [
+                "Experience in mobile application development.",
+                "Solid programming experience in Swift and deep understanding of iOS.",
+                "Solid programming experience in Android and deep understanding of Android.",
+                "Solid understanding SQL and noSQL databases.",
+                "Solid understanding of software development processes and tools."
+            ]
+        },
+        "responsibilities": [
+            "A commitment to collaborative problem solving, sophisticated design, and the creation of quality products is essential."
+        ],
+        "link": "https://angel.co/company/appx-1/jobs/647053-software-engineer-intern-ios-or-android?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+        "title": "Internship, Consultant ERP & CRM Solutions",
+        "employer": "Big Bang ERP",
+        "listed_on": "2020/04/08",
+        "expires": "",
+        "logo": "assets/images/logos/bigbangerp.jpeg",
+        "employer_description": "We are a boutique consulting firm that helps businesses optimize and streamline their processes by implementing cutting-edge cloud ERP (Enterprise Resource Planning) and CRM (Customer Relationship Management) systems.",
+        "requirements": {
+            "minimal": [
+                "Completed at least 2 years of a Software Engineering, Information Technology, or a relevant discipline university degree",
+                "Experience with at least one programming language (C#, Java, Javascript)",
+                "High academic achievement and extra-curricular activities and projects",
+                "Strong problem-solving skills",
+                "Fluent in French and English"
+            ],
+            "preferred": [
+                "Strong problem-solving skills",
+                "Proven track record of effectively working in teams",
+                "Integrity, maturity, proactivity, critical thinking and creativity",
+                "Experience with Salesforce.com solutions, Apex and Visualforce development (optional)"
+            ]
+        },
+        "responsibilities": [
+            "Analyzing business processes and providing recommendations for improvements"
+        ],
+        "link": "https://www.glassdoor.ca/job-listing/internship-consultant-erp-crm-solutions-big-bang-erp-JV_IC2296722_KO0,39_KE40,52.htm?jl=2266868786&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+        "title": "Fullstack PHP Developer Internship",
+        "employer": "PlanetRate Inc",
+        "listed_on": "2020/03/01",
+        "expires": "",
+        "logo": "assets/images/logos/planetrate.jpeg",
+        "employer_description": "PlanetRate Inc (https://planetrate.com) is a new start-up based on a revolutionary and transformative platform for ratings and reviews. It allows people to provide feedback on specific topics and helps businesses to understand their customers.",
+        "requirements": {
+            "minimal": [
+                "Experience with Web Service APIs (SOAP/REST)",
+                "Knowledge of HTML / CSS / Javascript / Jquery / AJAX / XML",
+                "Experience with SQL (MySQL, PostgreSQL, etc) and performant database design."
+            ],
+            "preferred": [
+                "PHP and MySQL: 2 years",
+                "Building Web Applications: 2 years",
+                "Building APIs: 1 year"
+            ]
+        },
+        "responsibilities": [
+            "This is a one-of-a-kind opportunity to get in at the ground floor and join a fast-growing startup. If this sounds challenging, exciting and fun, we want to talk to you."
+        ],
+        "link": "https://secure.collage.co/jobs/planetrate/5863"
+    },
+    {
+        "title": "Intern - Developer",
+        "employer": "SAP",
+        "listed_on": "2020/03/24",
+        "expires": "",
+        "logo": "assets/images/logos/sap.jpeg",
+        "employer_description": "SAP values the entrepreneurial spirit, fostering creativity and building lasting relationships with our employees. We know that a diverse and inclusive workforce keeps us competitive and provides opportunities for all. We believe that together we can transform industries, grow economics, lift up societies and sustain our environment. Because it’s the best-run businesses that make the world run better and improve people’s lives.",
+        "requirements": {
+            "minimal": [
+                "Bachelor’s or Master’s (ongoing or recently completed)",
+                "Field of study: computer engineering, software engineering or computer science",
+                "Know-how of the SAP software development process is appreciated"
+            ],
+            "preferred": [
+                "Knowledge of object-oriented programming (OOP)",
+                "Mastery of an object-oriented language (e.g. Java, JavaScript etc)",
+                "Ability to learn quickly and adapt to new environments",
+                "Strong interpersonal and communication skills",
+                "Functional English; French is an asset"
+            ]
+        },
+        "responsibilities": [
+            "As a software developer (intern), you will join a team of experienced colleagues and you will participate in designing and implementing new features"
+        ],
+        "link": "https://www.glassdoor.ca/job-listing/intern-developer-sap-JV_IC2296722_KO0,16_KE17,20.htm?jl=3537008570&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+        "title": "Data Engineer Internship",
+        "employer": "IVADO Labs",
+        "listed_on": "2020/02/13",
+        "expires": "",
+        "logo": "assets/images/logos/nologo.png",
+        "employer_description": "IVADO Labs is an AI-powered startup located in Montreal at the heart of one of the fastest growing AI community in the world. We work to identify and solve the most complex and highest value business problems that can be addressed through data science techniques. To achieve this, we provide data science, operations research and artificial intelligence solutions and software products to a broad range of industry and technology partners.",
+        "requirements": {
+            "minimal": [
+                "Participate in the design, code, create tests, and integrate new features and functionality",
+                "Participate in the design, build, and productize complex data pipelines",
+                "Learn the different AI/data science components/models in order for the algorithm to be properly translated in production code",
+                "Participate in scrum project meetings and update stories using project management tools",
+                "Apply CI/CD practices to prevent integration problems as well as ensure that the code is releasable at any point in time",
+                "Participate in the estimation of the Stories based on defined Acceptance Criteria and Definition of Done"
+            ],
+            "preferred": [
+                "You have some experience in Big Data (Hadoop, Spark, Hive)",
+                "Relevant work experience, including internships, full time industry experience or as a researcher in a lab.",
+                "You have a desire to become a full stack developer, fluent in one or more of the prominent tools/platforms and able to implement end-to-end solutions",
+                "You want to be exposed to AI/data science concepts"
+            ]
+        },
+        "responsibilities": [
+            "In this role, you will work in a client project environment with an AI-Agile Team composed of a Product Manager, consultant, Delivery Team Lead and Data Scientist and contribute to the translation of complex AI/data science algorithms into scalable software."
+        ],
+        "link": "https://jobs.smartrecruiters.com/IVADOLabs/743999692478852-data-engineer-internship?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+        "title": "Back-end Developer (Internship)",
+        "employer": "Workland",
+        "listed_on": "2020/05/05",
+        "expires": "",
+        "logo": "assets/images/logos/workland.jpeg",
+        "employer_description": "Workland welcomes about 20 interns each year and the Workland Internship Programis a strategic part of our development! Our internships offer interns an exciting path to contribute to cutting edge technology, innovative products and make a true business impact.",
+        "requirements": {
+            "minimal": [
+                "Who must be currently enrolled in a DEC, AEC, Certificate, Bachelor's, Master’s or PhD program in Computer Science or related program OR be eligible to partake in an internship program approved by the Ministry of Education",
+                "That has excellent skills in writing good quality codes",
+                "Who is analytical, collaborative and a multi-tasker"
+            ],
+            "preferred": [
+                "Python, PHP, Laravel/Lumen Framework, NodeJS",
+                "Ability to obtain and store information through MongoDB and SQL",
+                "Ability to design and execute a research agenda.",
+                "Docker, Unit Testing, Code versioning tools (Git/GitLab)"
+            ]
+        },
+        "responsibilities": [
+            "Your job will entail developing back end systems and integrating front-end elements built by your coworkers and design of user interfaces. You will also have the chance to work on accessibility and security compliance as well as monitoring the status of servers."
+        ],
+        "link": "https://www.glassdoor.ca/job-listing/back-end-developer-internship-workland-JV_IC2296722_KO0,29_KE30,38.htm?jl=3524266430&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+        "title": "Junior Software Developer Internship",
+        "employer": "Maya Heat Transfer Technologies",
+        "listed_on": "2020/01/01",
+        "expires": "",
+        "logo": "assets/images/logos/maya.png",
+        "employer_description": "Join a high-energy and dynamic company that is a recognized industry leader",
+        "requirements": {
+            "minimal": [
+                "Use Agile development principles (scrum, Kanban) to develop, maintain, and integrate custom engineering software tools and products;",
+                "Understand client workflows, requirements, and needs, and recommend solutions and best practices;",
+                "Design, implement, and deploy new functionality;"
+            ],
+            "preferred": [
+                "Having completed a minimum of 2 years towards an undergraduate degree in Computer Science /Engineering, or other related fields;",
+                "Have strong software programming skills (at least one of C#, Python, C++, VB, or Java) – familiarity with OOP is required;",
+                "Have excellent communication skills, both oral and written;",
+                "Is self-motivated"
+            ]
+        },
+        "responsibilities": [
+            "Work on various stimulating projects and on innovative technologies"
+        ],
+        "link": "https://www.peersight.com/job/maya-heat-transfer-technologies-junior-software-developer-internship-summer-2020-in-montreal-qc.amp?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+        "title": "Software Developer Internship (Montreal)",
+        "employer": "Hitachi ID",
+        "listed_on": "2019/12/01",
+        "expires": "",
+        "logo": "assets/images/logos/hitachi.png",
+        "employer_description": "As one of many awards, Acquisition International awarded Hitachi ID Systems as Best in Privileged Access Management for 2019. Hitachi ID Systems is an innovative identity management specialist focused solely on developing, selling and deploying solutions that manage and control identities, entitlements and credentials.",
+        "requirements": {
+            "minimal": [
+                "Currently enrolled in a degree program, whose objective is a B.Sc in Software Engineering or Computer Science",
+                "Strong C++ and/or Angular developer (related languages or frameworks, such as C, Java, React, Jquery would be an asset)",
+                "Willingness to learn all technologies that compose the Hitachi ID Systems software stack",
+                "Familiar with SQL databases (writing SQL code) and AJAX UIs"
+            ],
+            "preferred": [
+                "Some familiarity with scripting languages such as Python, Perl or PowerShell",
+                "Experience designing and debugging complex systems",
+                "Familiarity with revision control systems (git, svn, etc.) and build automation (Make, Jam, Jenkins, etc.)",
+                "Ability to collaborate in a team, verbally and in writing, in English "
+            ]
+        },
+        "responsibilities": [
+            "Join an integrated developer/QA team to develop, support and expand enterprise identity and access management software, in C++/SQL/HTML5"
+        ],
+        "link": "https://www.peersight.co/job/hitachi-id-software-developer-internship-in-montreal-qc.amp?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+        "title": "Summer 2020 - Full Stack Developer",
+        "employer": "Societe Generale Corporate and Investment Banking - SGCIB",
+        "listed_on": "2020/03/24",
+        "expires": "",
+        "logo": "assets/images/logos/sgc.png",
+        "employer_description": "Societe Generale opened its Canadian headquarters in Montreal in 1974 to offer its financial services to corporations, financial institutions and governments. The Toronto and Calgary offices were opened in 1978 and 2006 respectively.We now employ over four hundred people, both in the traditional banking sector (investment banking, funds and trading activities) and in the field of information technology, with the opening of our SG Montreal Solutions Centre subsidiary which, thanks to its geographical location and its cultural diversity, provides computer support and development for the New York and Paris teams.",
+        "requirements": {
+            "minimal": [
+                "Hands on experience of object-oriented programming (Java or C# an asset)",
+                "Hands on experience with unit testing",
+                "Awareness of a wide variety of technologies (database, networking, operating systems, file formats, etc.)",
+                "Functional in French and English, both written and oral."
+            ],
+            "preferred": [
+                "Java, C#, Python, Angular, Bash, Powershell, etc.",
+                "SQL - SQL Server, Oracle, SQLite",
+                "Development and deployment toolchains (GIT, Jenkins, XL-Deploy, Docker, Kubernetes, etc.)",
+                "Linux, Windows"
+            ]
+        },
+        "responsibilities": [
+            "Implement various improvements to our existing systems",
+            "Design, implement and deploy new services and applications",
+            "Perform testing, Quality Assurance and User Acceptance Tests",
+            "Participate in brainstorms, code reviews and other activities with the team",
+            "Troubleshoot bugs, issues and production incidents",
+            "Create and maintain documentation"
+        ],
+        "link": "https://ca.linkedin.com/jobs/view/summer-2020-full-stack-developer-internship-at-societe-generale-corporate-and-investment-banking-sgcib-1770395956?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+        "title": "Intern, Software Developer, Cloud",
+        "employer": "Autodesk",
+        "listed_on": "2020/03/20",
+        "expires": "",
+        "logo": "assets/images/logos/autodesk.jpg",
+        "employer_description": "With Autodesk software, you have the power to Make Anything. The future of making is here, bringing with it radical changes in the way things are designed, made, and used. It’s disrupting every industry: architecture, engineering, and construction; manufacturing; and media and entertainment. With the right knowledge and tools, this disruption is your opportunity. Our software is used by everyone - from design professionals, engineers and architects to digital artists, students and hobbyists. We constantly explore new ways to integrate all dimensions of diversity across our employees, customers, partners, and communities. Our ultimate goal is to expand opportunities for anyone to imagine, design, and make a better world",
+        "requirements": {
+            "minimal": [
+                "Experience with large scale, distributed application design.",
+                "Detail oriented and passionate about building great software.",
+                "BS or MS in Computer Science or related technical field."
+            ],
+            "preferred": [
+                "Familiarity with web application development and JavaScript is a very strong plus.",
+                "Familiarity with HTML5 and modern web standards.Experience with continuous build and integration tools such as Ansible, Docker, Jenkins, and/or BuildBot will be a strong plus.",
+                "Experience with Node.js is a strong plus.",
+                "Experience contributing as a full-stack developer.",
+                "Experience with Git or equivalent distributed revision control systems"
+            ]
+        },
+        "responsibilities": [
+            "Implement prototypes and software components. Collaborate with team of excellent engineers to design, plan, develop, test, deliver and maintain complex features and new subsystems. Interact with product management teams to review and implement proposed designs. Participate and advise in code reviews."
+        ],
+        "link": "https://www.peersight.co/job/autodesk-intern-software-developer-cloud-platform-data-services-in-montreal-qc.amp?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+        "title": "Intern - Frontend Software Developer",
+        "employer": "SAP",
+        "listed_on": "2020/03/01",
+        "expires": "",
+        "logo": "assets/images/logos/sap.jpeg",
+        "employer_description": "SAP values the entrepreneurial spirit, fostering creativity and building lasting relationships with our employees. We know that a diverse and inclusive workforce keeps us competitive and provides opportunities for all. We believe that together we can transform industries, grow economics, lift up societies and sustain our environment. Because it’s the best-run businesses that make the world run better and improve people’s lives.",
+        "requirements": {
+            "minimal": [
+                "Bachelor’s or Master’s (ongoing or recently completed)",
+                "Field of study: computer engineering, software engineering or computer science",
+                "Know-how of the SAP software development process is appreciated"
+            ],
+            "preferred": [
+                "HTML, CSS, DOM, JavaScript",
+                "experience with Typescript",
+                "experience with Angular (alternatively other front-end JavaScript framework)",
+                "experience with Node.js and NPM",
+                "experience with RESTful web services"
+            ]
+        },
+        "responsibilities": [
+            "As a software developer (intern), you will join a team of experienced colleagues and you will participate in designing and implementing new features."
+        ],
+        "link": "https://www.peersight.mx/job/sap-intern-frontend-software-developer-in-montreal-qc.amp?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+    },
+    {
+        "title": "Internship - Software test Engineer",
+        "employer": "Aruba Networks",
+        "listed_on": "2020/02/15",
+        "expires": "",
+        "logo": "assets/images/logos/aruba.png",
+        "employer_description": "Hewlett Packard Entreprise, a world-wide leader in information technology and networking, is seeking a trainee in software engineering, electrical engineering, information technology or automated production for its wireless networking division in Montréal.",
+        "requirements": {
+            "minimal": [
+                "Knowledge of TCP/IP networks and technologiesInterest in IP and WiFi wireless networks",
+                "Asset: interest in Linux/UNIX"
+            ],
+            "preferred": [
+                "interest in Scripting (BASH).",
+                "experience in configuring and installing network equipment and software such as: routers, web servers, RADIUS servers, etc."
+            ]
+        },
+        "responsibilities": [
+            "Conduct software and networking tests on new products and new functionalities;",
+            "Prepare and configure the products to be tested;",
+            "Prepare and configure the networks used during the tests;",
+            "Reproduce certain problems reported by our clients."
+        ],
+        "link": "https://www.peersight.mx/job/aruba-networks-stage-ingenieur-test-logiciel-internship-software-test-engineer-in-saint-laurent-qc.amp?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
     }
 ]
