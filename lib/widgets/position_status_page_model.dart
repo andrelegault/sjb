@@ -1,28 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:provider/provider.dart';
 import 'package:sjb/models/page_model.dart';
+import 'package:sjb/models/user.dart';
 
 import 'name_page_model_view.dart';
 
-class PositionStatusPageModelView extends StatefulWidget {
-  final PageModel pageModel;
-  PositionStatusPageModelView({this.pageModel});
+class PositionStatusPageModelView extends StatelessWidget {
+  final Color color;
+  final Image hero;
+  final Image icon;
+  final String title;
 
-  @override
-  State<StatefulWidget> createState() => PositionStatusPageModelState(pageModel);
-}
-
-class PositionStatusPageModelState extends State<PositionStatusPageModelView>
-    with AutomaticKeepAliveClientMixin<PositionStatusPageModelView> {
-  Color color = Colors.white;
-  Image hero;
-  Image icon;
-  String title;
-  DateTime bd;
-  Function onUpdate;
-  List<bool> isSelected = [true, false];
-
-  PositionStatusPageModelState(PageModel pageModel)
+  PositionStatusPageModelView(PageModel pageModel)
       : color = pageModel.color,
         title = pageModel.title,
         hero = NamePageModelView.renderImageAsset(pageModel.heroAssetPath,
@@ -31,15 +21,14 @@ class PositionStatusPageModelState extends State<PositionStatusPageModelView>
 
   @override
   Widget build(BuildContext context) {
-    super.build(context);
+    User user = Provider.of<User>(context, listen: false);
     return Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           hero,
           Padding(
             padding: const EdgeInsets.all(25.0),
-            child: 
-            Text(title,
+            child: Text(title,
                 style: TextStyle(
                   fontWeight: FontWeight.w800,
                   color: color,
@@ -56,9 +45,7 @@ class PositionStatusPageModelState extends State<PositionStatusPageModelView>
                     padding: const EdgeInsets.only(left: 12.0, right: 12.0),
                     child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
-                        children: <Widget>[
-                          Text('Part Time')
-                        ]),
+                        children: <Widget>[Text('Part Time')]),
                   ),
                 ),
                 Container(
@@ -68,35 +55,28 @@ class PositionStatusPageModelState extends State<PositionStatusPageModelView>
                     padding: const EdgeInsets.only(left: 12.0, right: 12.0),
                     child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
-                        children: <Widget>[
-                          Text('Full Time')
-                        ]),
+                        children: <Widget>[Text('Full Time')]),
                   ),
                 ),
               ],
               onPressed: (int index) {
-                setState(() {
-                  for (int buttonIndex = 0;
-                      buttonIndex < isSelected.length;
-                      buttonIndex++) {
-                    if (buttonIndex == index) {
-                      isSelected[buttonIndex] = true;
-                    } else {
-                      isSelected[buttonIndex] = false;
-                    }
-                    setState(() {
-                      isSelected = isSelected;
-                    });
+                for (int buttonIndex = 0;
+                    buttonIndex < user.statusSelection.length;
+                    buttonIndex++) {
+                  if (buttonIndex == index) {
+                    user.statusSelection[buttonIndex] = true;
+                    user.positionStatus = index == 1
+                        ? PositionStatus.full_time
+                        : PositionStatus.part_time;
+                  } else {
+                    user.statusSelection[buttonIndex] = false;
                   }
-                });
+                }
                 Navigator.of(context).popAndPushNamed('/home');
               },
-              isSelected: isSelected,
+              isSelected: user.statusSelection,
             )
           ])
         ]);
   }
-
-  @override
-  bool get wantKeepAlive => true;
 }

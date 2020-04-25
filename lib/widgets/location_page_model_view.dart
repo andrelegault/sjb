@@ -1,47 +1,27 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:provider/provider.dart';
 import 'package:sjb/models/page_model.dart';
+import 'package:sjb/models/user.dart';
 
-class LocationPageModelView extends StatefulWidget {
-  final PageModel pageModel;
-  final Function onUpdate;
+import 'name_page_model_view.dart';
+
+class LocationPageModelView extends StatelessWidget {
+  final Color color;
+  final Image hero;
+  final Image icon;
+  final String title;
   final PageController controller;
-  LocationPageModelView(
-      {this.pageModel, this.onUpdate, this.controller});
 
-  @override
-  State<StatefulWidget> createState() =>
-      _PageModelViewState(pageModel, controller);
-
-  static Widget renderImageAsset(String assetPath,
-      {double width = 24, double height = 24, Color color}) {
-    return Image.asset(
-      assetPath,
-      color: color,
-      width: width,
-      height: height,
-    );
-  }
-}
-
-class _PageModelViewState extends State<LocationPageModelView>
-    with AutomaticKeepAliveClientMixin<LocationPageModelView> {
-  Color color = Colors.white;
-  Image hero;
-  Image icon;
-  String title;
-  PageController controller;
-
-  _PageModelViewState(PageModel pageModel, this.controller)
+  LocationPageModelView(PageModel pageModel, this.controller)
       : color = pageModel.color,
         title = pageModel.title,
-        hero = LocationPageModelView.renderImageAsset(pageModel.heroAssetPath,
+        hero = NamePageModelView.renderImageAsset(pageModel.heroAssetPath,
             width: 200, height: 200),
-        icon = LocationPageModelView.renderImageAsset(pageModel.iconAssetPath);
+        icon = NamePageModelView.renderImageAsset(pageModel.iconAssetPath);
 
   @override
   Widget build(BuildContext context) {
-    super.build(context);
     return Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
@@ -58,9 +38,12 @@ class _PageModelViewState extends State<LocationPageModelView>
                 children: <Widget>[
                   TextField(
                       textInputAction: TextInputAction.go,
-                      onSubmitted: (String data) => controller.nextPage(
-                          duration: Duration(milliseconds: 500),
-                          curve: Curves.ease),
+                      onSubmitted: (String data) {
+                        Provider.of<User>(context, listen: false).city = data;
+                        controller.nextPage(
+                            duration: Duration(milliseconds: 500),
+                            curve: Curves.ease);
+                      },
                       decoration: InputDecoration(hintText: 'City'),
                       textAlign: TextAlign.center,
                       style: TextStyle(
@@ -71,7 +54,4 @@ class _PageModelViewState extends State<LocationPageModelView>
               )),
         ]);
   }
-
-  @override
-  bool get wantKeepAlive => true;
 }

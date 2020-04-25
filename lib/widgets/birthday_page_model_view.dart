@@ -2,44 +2,31 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
 import 'package:intl/intl.dart';
+import 'package:provider/provider.dart';
 import 'package:sjb/models/page_model.dart';
+import 'package:sjb/models/user.dart';
 
 import 'name_page_model_view.dart';
 
-class BirthdayPageModelView extends StatefulWidget {
-  final PageModel pageModel;
+class BirthdayPageModelView extends StatelessWidget {
   final PageController controller;
 
-  BirthdayPageModelView({this.pageModel, this.controller});
+  final Color color;
+  final Image hero;
+  final Image icon;
+  final String title;
+  final DateFormat fmt = DateFormat.yMMMd();
 
-  @override
-  State<StatefulWidget> createState() =>
-      BirthdayPageModelState(pageModel, controller);
-}
-
-class BirthdayPageModelState extends State<BirthdayPageModelView>
-    with AutomaticKeepAliveClientMixin<BirthdayPageModelView> {
-  Color color = Colors.white;
-  Image hero;
-  Image icon;
-  String title;
-  DateTime bd;
-  Function onUpdate;
-  PageController controller;
-  DateFormat fmt = DateFormat.yMMMd();
-
-  BirthdayPageModelState(PageModel pageModel, this.controller)
+  BirthdayPageModelView(PageModel pageModel, this.controller)
       : color = pageModel.color,
         title = pageModel.title,
         hero = NamePageModelView.renderImageAsset(pageModel.heroAssetPath,
             height: 300, width: 300),
         icon = NamePageModelView.renderImageAsset(pageModel.iconAssetPath);
 
-  void _updateBirthday(DateTime other) => setState(() => bd = other);
-
   @override
   Widget build(BuildContext context) {
-    super.build(context);
+    User user = Provider.of<User>(context, listen: false);
     return Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
@@ -62,11 +49,13 @@ class BirthdayPageModelState extends State<BirthdayPageModelView>
                       controller.nextPage(
                           duration: Duration(milliseconds: 500),
                           curve: Curves.ease);
-                      _updateBirthday(date);
+                      user.dob = date;
                     }, currentTime: DateTime.now(), locale: LocaleType.en);
                   },
                   child: Text(
-                    bd == null ? 'Tap me to pick a date!' : fmt.format(bd),
+                    user.dob == null
+                        ? 'Tap me to pick a date!'
+                        : fmt.format(user.dob),
                     style: TextStyle(
                       fontWeight: FontWeight.w700,
                       color: Colors.black,
@@ -77,7 +66,4 @@ class BirthdayPageModelState extends State<BirthdayPageModelView>
           ]),
         ]);
   }
-
-  @override
-  bool get wantKeepAlive => true;
 }

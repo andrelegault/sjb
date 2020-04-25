@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:sjb/models/page_model.dart';
 import 'package:sjb/widgets/birthday_page_model_view.dart';
 import 'package:sjb/widgets/education_page_model_view.dart';
@@ -7,22 +6,19 @@ import 'package:sjb/widgets/location_page_model_view.dart';
 import 'package:sjb/widgets/name_page_model_view.dart';
 import 'package:sjb/widgets/position_status_page_model.dart';
 
-class NewOnBoardingScreen extends StatefulWidget {
-  @override
-  NewOnBoardingScreenState createState() => NewOnBoardingScreenState();
-}
-
+class NewOnBoardingScreen extends StatelessWidget {
 // Define a corresponding State class.
 // This class holds data related to the form.
-class NewOnBoardingScreenState extends State<NewOnBoardingScreen> {
   final List<Widget> pageList;
   final PageController controller = PageController(
     initialPage: 0,
   );
 
-  DateTime bd;
-  DateFormat fmt = DateFormat.yMMMd();
-  List<PageModel> pageModels = [
+  NewOnBoardingScreen({
+    this.pageList,
+  });
+
+  final List<PageModel> pageModels = [
     PageModel(
         heroAssetPath: 'assets/images/user.png',
         iconAssetPath: 'assets/images/user.png',
@@ -45,26 +41,16 @@ class NewOnBoardingScreenState extends State<NewOnBoardingScreen> {
         title: 'Are you studying full-time or part-time?'),
   ];
 
-  NewOnBoardingScreenState({
-    this.pageList,
-  });
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-            title: Text(bd == null ? 'Student Job Board' : fmt.format(bd))),
+        appBar: AppBar(title: Text('Student Job Board')),
         body: PageView(controller: controller, children: <Widget>[
-          NamePageModelView(pageModel: pageModels[0], controller: controller),
-          BirthdayPageModelView(
-              pageModel: pageModels[1], controller: controller),
-          LocationPageModelView(
-              pageModel: pageModels[2], controller: controller),
-          EducationPageModelView(
-              pageModel: pageModels[3], controller: controller),
-          PositionStatusPageModelView(
-            pageModel: pageModels[4],
-          ),
+          NamePageModelView(pageModels[0], controller),
+          BirthdayPageModelView(pageModels[1], controller),
+          LocationPageModelView(pageModels[2], controller),
+          EducationPageModelView(pageModels[3], controller),
+          PositionStatusPageModelView(pageModels[4]),
         ]));
   }
 }

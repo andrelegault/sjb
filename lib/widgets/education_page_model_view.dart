@@ -1,31 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:provider/provider.dart';
 import 'package:sjb/models/page_model.dart';
+import 'package:sjb/models/user.dart';
 
 import 'name_page_model_view.dart';
 
-class EducationPageModelView extends StatefulWidget {
-  final PageModel pageModel;
-  final PageController controller;
-  EducationPageModelView({this.pageModel, this.controller});
-
-  @override
-  State<StatefulWidget> createState() =>
-      EducationPageModelState(pageModel, controller);
-}
-
-class EducationPageModelState extends State<EducationPageModelView>
-    with AutomaticKeepAliveClientMixin<EducationPageModelView> {
-  Color color = Colors.white;
-  Image hero;
-  Image icon;
-  String title;
-  DateTime bd;
-  Function onUpdate;
-  List<bool> isSelected = [true, false];
+class EducationPageModelView extends StatelessWidget {
+  final Color color;
+  final Image hero;
+  final Image icon;
+  final String title;
   final PageController controller;
 
-  EducationPageModelState(PageModel pageModel, this.controller)
+  EducationPageModelView(PageModel pageModel, this.controller)
       : color = pageModel.color,
         title = pageModel.title,
         hero = NamePageModelView.renderImageAsset(pageModel.heroAssetPath,
@@ -34,7 +22,7 @@ class EducationPageModelState extends State<EducationPageModelView>
 
   @override
   Widget build(BuildContext context) {
-    super.build(context);
+    User user = Provider.of<User>(context, listen: false);
     return Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
@@ -82,29 +70,23 @@ class EducationPageModelState extends State<EducationPageModelView>
                 ),
               ],
               onPressed: (int index) {
-                setState(() {
-                  for (int buttonIndex = 0;
-                      buttonIndex < isSelected.length;
-                      buttonIndex++) {
-                    if (buttonIndex == index) {
-                      isSelected[buttonIndex] = true;
-                    } else {
-                      isSelected[buttonIndex] = false;
-                    }
-                    setState(() {
-                      isSelected = isSelected;
-                    });
+                for (int buttonIndex = 0;
+                    buttonIndex < user.educationSelection.length;
+                    buttonIndex++) {
+                  if (buttonIndex == index) {
+                    user.educationSelection[buttonIndex] = true;
+                    user.studyField =
+                        index == 1 ? StudyField.finance : StudyField.soen;
+                  } else {
+                    user.educationSelection[buttonIndex] = false;
                   }
-                });
+                }
                 controller.nextPage(
                     duration: Duration(milliseconds: 500), curve: Curves.ease);
               },
-              isSelected: isSelected,
+              isSelected: user.educationSelection,
             )
           ])
         ]);
   }
-
-  @override
-  bool get wantKeepAlive => true;
 }

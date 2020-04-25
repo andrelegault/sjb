@@ -1,41 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:provider/provider.dart';
 import 'package:sjb/models/page_model.dart';
+import 'package:sjb/models/user.dart';
 
-class NamePageModelView extends StatefulWidget {
-  final PageModel pageModel;
-  final Widget body;
-  final Function onUpdate;
+class NamePageModelView extends StatelessWidget {
   final PageController controller;
-  NamePageModelView(
-      {this.pageModel, this.body, this.onUpdate, this.controller});
 
-  @override
-  State<StatefulWidget> createState() =>
-      _PageModelViewState(pageModel, body, controller);
+  final Color color;
+  final Image hero;
+  final Image icon;
+  final String title;
+  final FocusNode focusEmail = FocusNode();
 
-  static Widget renderImageAsset(String assetPath,
-      {double width = 24, double height = 24, Color color}) {
-    return Image.asset(
-      assetPath,
-      color: color,
-      width: width,
-      height: height,
-    );
-  }
-}
-
-class _PageModelViewState extends State<NamePageModelView>
-    with AutomaticKeepAliveClientMixin<NamePageModelView> {
-  Color color = Colors.white;
-  Image hero;
-  Image icon;
-  String title;
-  Widget body;
-  PageController controller;
-  FocusNode focusEmail;
-
-  _PageModelViewState(PageModel pageModel, this.body, this.controller)
+  NamePageModelView(PageModel pageModel, this.controller)
       : color = pageModel.color,
         title = pageModel.title,
         hero = NamePageModelView.renderImageAsset(pageModel.heroAssetPath,
@@ -43,19 +21,8 @@ class _PageModelViewState extends State<NamePageModelView>
         icon = NamePageModelView.renderImageAsset(pageModel.iconAssetPath);
 
   @override
-  void initState() {
-    super.initState();
-    focusEmail = FocusNode();
-  }
-
-  void dispose() {
-    focusEmail.dispose();
-    super.dispose();
-  }
-
-  @override
   Widget build(BuildContext context) {
-    super.build(context);
+    User user = Provider.of<User>(context, listen: false);
     return Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
@@ -74,6 +41,7 @@ class _PageModelViewState extends State<NamePageModelView>
                       textInputAction: TextInputAction.go,
                       keyboardType: TextInputType.text,
                       onSubmitted: (String data) {
+                        user.name = data;
                         focusEmail.requestFocus();
                       },
                       decoration: InputDecoration(hintText: 'Name'),
@@ -87,6 +55,7 @@ class _PageModelViewState extends State<NamePageModelView>
                       textInputAction: TextInputAction.go,
                       keyboardType: TextInputType.emailAddress,
                       onSubmitted: (String data) {
+                        user.email = data;
                         controller.nextPage(
                             duration: Duration(milliseconds: 500),
                             curve: Curves.ease);
@@ -102,6 +71,13 @@ class _PageModelViewState extends State<NamePageModelView>
         ]);
   }
 
-  @override
-  bool get wantKeepAlive => true;
+  static Widget renderImageAsset(String assetPath,
+      {double width = 24, double height = 24, Color color}) {
+    return Image.asset(
+      assetPath,
+      color: color,
+      width: width,
+      height: height,
+    );
+  }
 }
