@@ -1,14 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:sjb/screens/login_screen.dart';
 import 'package:sjb/screens/singlePosting/single_listing_screen.dart';
 import 'package:sjb/models/listing.dart';
 
+import 'models/user.dart';
 import 'screens/home_screen.dart';
 import 'screens/listings_screen.dart';
 import 'screens/new_on_boarding_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(ChangeNotifierProvider(
+    create: (context) => User(),
+    child: MyApp(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
