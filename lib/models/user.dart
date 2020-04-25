@@ -19,6 +19,6 @@ class User {
 }
 
 enum PositionStatus {
-  FULL_TIME,
-  PART_TIME,
+  full_time,
+  part_time,
 }
