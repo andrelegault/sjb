@@ -3,7 +3,7 @@ import 'package:sjb/screens/login_screen.dart';
 
 import 'screens/home_screen.dart';
 import 'screens/listings_screen.dart';
-import 'screens/onboarding_screen.dart';
+import 'screens/new_on_boarding_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/onboarding',
       routes: {
         '/': (context) => LoginScreen(),
-        '/onboarding': (context) => OnBoardingScreen(),
+        '/onboarding': (context) => NewOnBoardingScreen(),
         '/listings': (context) => ListingsScreen(),
         '/home': (context) => HomeScreen(),
       },
