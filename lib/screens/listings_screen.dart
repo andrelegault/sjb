@@ -6,15 +6,12 @@ import 'package:sjb/models/listing.dart';
 import 'package:sjb/screens/singlePosting/single_listing_screen.dart';
 
 class ListingsScreen extends StatelessWidget {
-
-
-
   @override
   Widget build(BuildContext context) => FutureBuilder(
       future: rootBundle.loadString('assets/data/sample_listings.json'),
       builder: (BuildContext context, AsyncSnapshot snapshot) {
         if (!snapshot.hasData) {
-          return CircularProgressIndicator();
+          return Container(child: CircularProgressIndicator());
         } else {
           List<dynamic> data = json.decode(snapshot.data);
           List<Posting> listings = [];
@@ -39,17 +36,20 @@ class ListingsScreen extends StatelessWidget {
                           ),
                         ],
                       ),
-                      trailing: Row(
-                          mainAxisSize: MainAxisSize.min,
-                          children: <Widget>[
-                            RaisedButton(
-                                onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => SingleListingScreen(listings[index]))),
-                                elevation: 1.0,
-                                color: Colors.grey,
-                                textColor: Colors.white,
-                                child: Text("View")),
-                            Icon(Icons.keyboard_arrow_right)
-                          ]),
+                      trailing: Row(mainAxisSize: MainAxisSize.min, children: <
+                          Widget>[
+                        RaisedButton(
+                            onPressed: () => Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) =>
+                                        SingleListingScreen(listings[index]))),
+                            elevation: 1.0,
+                            color: Colors.grey,
+                            textColor: Colors.white,
+                            child: Text("View")),
+                        Icon(Icons.keyboard_arrow_right)
+                      ]),
                     )),
             bottomNavigationBar: BottomAppBar(
               shape: const CircularNotchedRectangle(),

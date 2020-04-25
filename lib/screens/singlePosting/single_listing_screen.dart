@@ -1,21 +1,17 @@
-import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:sjb/screens/singlePosting/page_section.dart';
 import '../../models/listing.dart';
-import 'package:sjb/screens/singlePosting/buttons_section.dart';
 
 class SingleListingScreen extends StatelessWidget {
   static const routeName = 'single-post';
 
-  Posting posting;
-  SingleListingScreen(Posting posting){this.posting = posting;}
+  final Posting posting;
+  SingleListingScreen(this.posting);
 
   @override
   Widget build(BuildContext context) {
-
-
-    String min_requirements=_group(posting.reqs, 'minimal');
-    String pref_requirements =_group(posting.reqs, 'preferred');
+    String minRequirements = _group(posting.reqs, 'minimal');
+    String prefRequirements = _group(posting.reqs, 'preferred');
 
     void _showDialog() {
       showDialog(
@@ -38,55 +34,42 @@ class SingleListingScreen extends StatelessWidget {
     }
 
     return Scaffold(
-        appBar: AppBar(
-
-          title: Text(posting.employer),),
-        body:
-          SingleChildScrollView(
-            child:
-              Column(
-              children: [
+      appBar: AppBar(
+        title: Text(posting.employer),
+      ),
+      body: SingleChildScrollView(
+          child: Column(children: [
 //                ButtonSection(color: Colors.black),
-                PageSection(title: 'Position', description: posting.title),
-                PageSection(title: "Job Location", description: posting.location),
-                PageSection(title: "Term", description: posting.term),
-                PageSection(title: 'Company Description', description: posting.description),
-                PageSection(title: 'Responsabilities', description: posting.resp[0]),
-                PageSection(title: 'Minimal Requirements', description: min_requirements ),
-                PageSection(title: 'Preferred Qualifications', description: pref_requirements),
+        PageSection(title: 'Position', description: posting.title),
+        PageSection(title: "Job Location", description: posting.location),
+        PageSection(title: "Term", description: posting.term),
+        PageSection(
+            title: 'Company Description', description: posting.description),
+        PageSection(title: 'Responsabilities', description: posting.resp[0]),
+        PageSection(
+            title: 'Minimal Requirements', description: minRequirements),
+        PageSection(
+            title: 'Preferred Qualifications', description: prefRequirements),
 //                PageSection(title: 'Link', description: posting.url),
-              ]
-            )
-          ),
-
-        floatingActionButton: Padding(
-          padding: const EdgeInsets.only(bottom: 20),
-          child: FloatingActionButton(
-            onPressed: () => _showDialog(),
-            tooltip: 'Increment Counter',
-            child: Column(children: [
-                Icon(Icons.check_circle),
-                Text("apply")
-
-            ]
-
-            ),
-          ),
+      ])),
+      floatingActionButton: Padding(
+        padding: const EdgeInsets.only(bottom: 20),
+        child: FloatingActionButton(
+          onPressed: () => _showDialog(),
+          tooltip: 'Increment Counter',
+          child: Column(children: [Icon(Icons.check_circle), Text("apply")]),
         ),
-        floatingActionButtonLocation:
-        FloatingActionButtonLocation.centerDocked,
-
-
-
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
 
-  String _group (Map<String, dynamic> requirements, String category){
-    String group_requirements = '';
-    for(int i=0; i<posting.reqs[category].length;i++){
-      group_requirements +=('\n- '+posting.reqs[category][i]+'\n');
+  String _group(Map<String, dynamic> requirements, String category) {
+    String groupRequirements = '';
+    for (int i = 0; i < posting.reqs[category].length; i++) {
+      groupRequirements += ('\n- ' + posting.reqs[category][i] + '\n');
     }
 
-    return group_requirements;
+    return groupRequirements;
   }
 }

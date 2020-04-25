@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:sjb/screens/login_screen.dart';
-import 'package:sjb/screens/singlePosting/single_listing_screen.dart';
-import 'package:sjb/models/listing.dart';
 
 import 'models/user.dart';
 import 'screens/home_screen.dart';
@@ -19,16 +17,6 @@ void main() {
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
 
-  Posting samplePost = Posting(
-      title:'Sample Title',
-      location: 'Sample Location',
-      employer: 'Sample Employer',
-      term: 'Sample Term',
-      logo: 'Sample Logo',
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-      url: 'Sample URL'
-  );
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -38,7 +26,6 @@ class MyApp extends StatelessWidget {
         '/': (context) => LoginScreen(),
         '/onboarding': (context) => NewOnBoardingScreen(),
         '/listings': (context) => ListingsScreen(),
-//        '/listings': (context) => SingleListingScreen(samplePost),
         '/home': (context) => HomeScreen(),
       },
       theme: ThemeData(
