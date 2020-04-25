@@ -64,6 +64,23 @@ flutter:
     - assets/images/logos/autodesk.jpg
     - assets/images/logos/sap.jpeg
     - assets/images/logos/aruba.png
+    - assets/images/logos/targray.png
+    - assets/images/logos/alorica.png
+    - assets/images/logos/amazon.png
+    - assets/images/logos/avaya.png
+    - assets/images/logos/bell.png
+    - assets/images/logos/fed.png
+    - assets/images/logos/fsc.png
+    - assets/images/logos/hsbc.png
+    - assets/images/logos/ivan.png
+    - assets/images/logos/netint.png
+    - assets/images/logos/shopify.png
+    - assets/images/logos/sia.png
+    - assets/images/logos/td.png
+    - assets/images/logos/technicolor.png
+    - assets/images/logos/ubisoft.png
+    - assets/images/logos/utv.png
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
