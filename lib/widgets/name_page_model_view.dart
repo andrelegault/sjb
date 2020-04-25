@@ -33,6 +33,7 @@ class _PageModelViewState extends State<NamePageModelView>
   String title;
   Widget body;
   PageController controller;
+  FocusNode focusEmail;
 
   _PageModelViewState(PageModel pageModel, this.body, this.controller)
       : color = pageModel.color,
@@ -40,6 +41,17 @@ class _PageModelViewState extends State<NamePageModelView>
         hero = NamePageModelView.renderImageAsset(pageModel.heroAssetPath,
             width: 200, height: 200),
         icon = NamePageModelView.renderImageAsset(pageModel.iconAssetPath);
+
+  @override
+  void initState() {
+    super.initState();
+    focusEmail = FocusNode();
+  }
+
+  void dispose() {
+    focusEmail.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -60,12 +72,26 @@ class _PageModelViewState extends State<NamePageModelView>
                 children: <Widget>[
                   TextField(
                       textInputAction: TextInputAction.go,
+                      keyboardType: TextInputType.text,
+                      onSubmitted: (String data) {
+                        focusEmail.requestFocus();
+                      },
+                      decoration: InputDecoration(hintText: 'Name'),
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 18.0,
+                      )),
+                  TextField(
+                      focusNode: focusEmail,
+                      textInputAction: TextInputAction.go,
+                      keyboardType: TextInputType.emailAddress,
                       onSubmitted: (String data) {
                         controller.nextPage(
                             duration: Duration(milliseconds: 500),
                             curve: Curves.ease);
                       },
-                      decoration: InputDecoration(hintText: 'Name'),
+                      decoration: InputDecoration(hintText: 'Email'),
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         color: Colors.black,
