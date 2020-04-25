@@ -6,10 +6,13 @@ class NamePageModelView extends StatefulWidget {
   final PageModel pageModel;
   final Widget body;
   final Function onUpdate;
-  NamePageModelView({this.pageModel, this.body, this.onUpdate});
+  final PageController controller;
+  NamePageModelView(
+      {this.pageModel, this.body, this.onUpdate, this.controller});
 
   @override
-  State<StatefulWidget> createState() => _PageModelViewState(pageModel, body);
+  State<StatefulWidget> createState() =>
+      _PageModelViewState(pageModel, body, controller);
 
   static Widget renderImageAsset(String assetPath,
       {double width = 24, double height = 24, Color color}) {
@@ -29,8 +32,9 @@ class _PageModelViewState extends State<NamePageModelView>
   Image icon;
   String title;
   Widget body;
+  PageController controller;
 
-  _PageModelViewState(PageModel pageModel, this.body)
+  _PageModelViewState(PageModel pageModel, this.body, this.controller)
       : color = pageModel.color,
         title = pageModel.title,
         hero = NamePageModelView.renderImageAsset(pageModel.heroAssetPath,
@@ -55,6 +59,12 @@ class _PageModelViewState extends State<NamePageModelView>
               child: Column(
                 children: <Widget>[
                   TextField(
+                      textInputAction: TextInputAction.go,
+                      onSubmitted: (String data) {
+                        controller.nextPage(
+                            duration: Duration(milliseconds: 500),
+                            curve: Curves.ease);
+                      },
                       decoration: InputDecoration(hintText: 'Name'),
                       textAlign: TextAlign.center,
                       style: TextStyle(

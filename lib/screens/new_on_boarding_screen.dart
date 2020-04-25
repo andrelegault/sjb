@@ -1,5 +1,3 @@
-// Define a custom Form widget.
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:sjb/models/page_model.dart';
@@ -18,8 +16,8 @@ class NewOnBoardingScreen extends StatefulWidget {
 // This class holds data related to the form.
 class NewOnBoardingScreenState extends State<NewOnBoardingScreen> {
   final List<Widget> pageList;
-  final controller = PageController(
-    initialPage: 1,
+  final PageController controller = PageController(
+    initialPage: 0,
   );
 
   DateTime bd;
@@ -57,12 +55,13 @@ class NewOnBoardingScreenState extends State<NewOnBoardingScreen> {
         appBar: AppBar(
             title: Text(bd == null ? 'Student Job Board' : fmt.format(bd))),
         body: PageView(controller: controller, children: <Widget>[
-          NamePageModelView(pageModel: pageModels[0]),
-          BirthdayPageModelView(pageModel: pageModels[1]),
-          LocationPageModelView(pageModel: pageModels[2]),
+          NamePageModelView(pageModel: pageModels[0], controller: controller),
+          BirthdayPageModelView(
+              pageModel: pageModels[1], controller: controller),
+          LocationPageModelView(
+              pageModel: pageModels[2], controller: controller),
           EducationPageModelView(
-            pageModel: pageModels[3],
-          ),
+              pageModel: pageModels[3], controller: controller),
           PositionStatusPageModelView(
             pageModel: pageModels[4],
           ),

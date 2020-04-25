@@ -4,18 +4,16 @@ import 'package:sjb/models/page_model.dart';
 
 import 'name_page_model_view.dart';
 
-class EducationPageModelView extends StatefulWidget {
+class TermPageModelView extends StatefulWidget {
   final PageModel pageModel;
-  final PageController controller;
-  EducationPageModelView({this.pageModel, this.controller});
+  TermPageModelView({this.pageModel});
 
   @override
-  State<StatefulWidget> createState() =>
-      EducationPageModelState(pageModel, controller);
+  State<StatefulWidget> createState() => PositionStatusPageModelState(pageModel);
 }
 
-class EducationPageModelState extends State<EducationPageModelView>
-    with AutomaticKeepAliveClientMixin<EducationPageModelView> {
+class PositionStatusPageModelState extends State<TermPageModelView>
+    with AutomaticKeepAliveClientMixin<TermPageModelView> {
   Color color = Colors.white;
   Image hero;
   Image icon;
@@ -23,9 +21,8 @@ class EducationPageModelState extends State<EducationPageModelView>
   DateTime bd;
   Function onUpdate;
   List<bool> isSelected = [true, false];
-  final PageController controller;
 
-  EducationPageModelState(PageModel pageModel, this.controller)
+  PositionStatusPageModelState(PageModel pageModel)
       : color = pageModel.color,
         title = pageModel.title,
         hero = NamePageModelView.renderImageAsset(pageModel.heroAssetPath,
@@ -39,19 +36,17 @@ class EducationPageModelState extends State<EducationPageModelView>
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           hero,
-          Text(title,
-              style: TextStyle(
-                fontWeight: FontWeight.w800,
-                color: color,
-                fontSize: 34.0,
-              )),
-          Column(children: <Widget>[
-            Text('Choose your field of study',
-                textAlign: TextAlign.center,
+          Padding(
+            padding: const EdgeInsets.all(25.0),
+            child: 
+            Text(title,
                 style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 18.0,
+                  fontWeight: FontWeight.w800,
+                  color: color,
+                  fontSize: 34.0,
                 )),
+          ),
+          Column(children: <Widget>[
             ToggleButtons(
               children: <Widget>[
                 Container(
@@ -62,8 +57,7 @@ class EducationPageModelState extends State<EducationPageModelView>
                     child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: <Widget>[
-                          Icon(Icons.attach_money),
-                          Text('Finance')
+                          Text('Part Time')
                         ]),
                   ),
                 ),
@@ -75,8 +69,7 @@ class EducationPageModelState extends State<EducationPageModelView>
                     child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: <Widget>[
-                          Icon(Icons.computer),
-                          Text('Software\nEngineering')
+                          Text('Full Time')
                         ]),
                   ),
                 ),
@@ -96,8 +89,6 @@ class EducationPageModelState extends State<EducationPageModelView>
                     });
                   }
                 });
-                controller.nextPage(
-                    duration: Duration(milliseconds: 500), curve: Curves.ease);
               },
               isSelected: isSelected,
             )

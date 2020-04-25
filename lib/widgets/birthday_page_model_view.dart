@@ -8,10 +8,13 @@ import 'name_page_model_view.dart';
 
 class BirthdayPageModelView extends StatefulWidget {
   final PageModel pageModel;
-  BirthdayPageModelView({this.pageModel});
+  final PageController controller;
+
+  BirthdayPageModelView({this.pageModel, this.controller});
 
   @override
-  State<StatefulWidget> createState() => BirthdayPageModelState(pageModel);
+  State<StatefulWidget> createState() =>
+      BirthdayPageModelState(pageModel, controller);
 }
 
 class BirthdayPageModelState extends State<BirthdayPageModelView>
@@ -22,9 +25,10 @@ class BirthdayPageModelState extends State<BirthdayPageModelView>
   String title;
   DateTime bd;
   Function onUpdate;
+  PageController controller;
   DateFormat fmt = DateFormat.yMMMd();
 
-  BirthdayPageModelState(PageModel pageModel)
+  BirthdayPageModelState(PageModel pageModel, this.controller)
       : color = pageModel.color,
         title = pageModel.title,
         hero = NamePageModelView.renderImageAsset(pageModel.heroAssetPath,
@@ -54,10 +58,12 @@ class BirthdayPageModelState extends State<BirthdayPageModelView>
                         showTitleActions: true,
                         minTime: DateTime(1950, 1, 1),
                         maxTime: DateTime(2019, 6, 7),
-                        onChanged: null,
-                        onConfirm: (DateTime date) => _updateBirthday(date),
-                        currentTime: DateTime.now(),
-                        locale: LocaleType.en);
+                        onChanged: null, onConfirm: (DateTime date) {
+                      controller.nextPage(
+                          duration: Duration(milliseconds: 500),
+                          curve: Curves.ease);
+                      _updateBirthday(date);
+                    }, currentTime: DateTime.now(), locale: LocaleType.en);
                   },
                   child: Text(
                     bd == null ? 'Tap me to pick a date!' : fmt.format(bd),
