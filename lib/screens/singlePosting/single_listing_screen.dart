@@ -60,7 +60,7 @@ class SingleListingScreen extends StatelessWidget {
           ),
 
         floatingActionButton: Padding(
-          padding: const EdgeInsets.only(bottom: 200),
+          padding: const EdgeInsets.only(bottom: 20),
           child: FloatingActionButton(
             onPressed: () => _showDialog(),
             tooltip: 'Increment Counter',
