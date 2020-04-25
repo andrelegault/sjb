@@ -43,10 +43,10 @@ class LoginScreenState extends State<LoginScreen> {
                           ),
                           TextFormField(
                             obscureText: true,
-                            // The validator receives the text that the user has entered.
                             decoration: InputDecoration(
                                 border: InputBorder.none,
                                 labelText: 'Enter your password'),
+                            // The validator receives the text that the user has entered.
                             validator: (value) {
                               if (value.isEmpty) {
                                 return 'Please enter some text';
@@ -62,10 +62,16 @@ class LoginScreenState extends State<LoginScreen> {
                                 // you'd often call a server or save the information in a database.
                                 // Scaffold.of(context).showSnackBar(
                                 //     SnackBar(content: Text('Processing Data')));
-                                Navigator.of(context).pushNamed('/home');
+                                Navigator.of(context).pushReplacementNamed('/home');
                               }
                             },
                             child: Text('Login'),
+                          ),
+                          RaisedButton(
+                            onPressed: () {
+                              Navigator.of(context).pushNamed('/onboarding');
+                            },
+                            child: Text('Register'),
                           ),
                           // Add TextFormFields and RaisedButton here.
                         ])))),
