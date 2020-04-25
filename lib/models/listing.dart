@@ -9,7 +9,7 @@ class Posting {
   String logo;
   String description;
   Map<String, dynamic> reqs;
-  List<String> resp;
+  List<dynamic> resp;
   String url;
 
   Posting.fromJson(Map<String, dynamic> data):
@@ -20,7 +20,7 @@ class Posting {
         logo = data['logo'],
         description = data['employer_description'],
         reqs = data['requirements'],
-        resp = data['responsabilities'],
+        resp = data['responsibilities'],
         url = data['link'];
 
   Posting(

@@ -7,6 +7,8 @@ import 'package:sjb/screens/singlePosting/single_listing_screen.dart';
 
 class ListingsScreen extends StatelessWidget {
 
+
+
   @override
   Widget build(BuildContext context) => FutureBuilder(
       future: rootBundle.loadString('assets/data/sample_listings.json'),
@@ -42,7 +44,6 @@ class ListingsScreen extends StatelessWidget {
                           children: <Widget>[
                             RaisedButton(
                                 onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => SingleListingScreen(listings[index]))),
-//                                onPressed: () => Navigator.of(context).pushNamed(SingleListingScreen.routeName),
                                 elevation: 1.0,
                                 color: Colors.grey,
                                 textColor: Colors.white,

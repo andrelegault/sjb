@@ -13,7 +13,20 @@ class PageSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.cyan[700],
+      decoration: const BoxDecoration(
+        gradient: LinearGradient(
+          colors: <Color>[
+//            Color(0xFF0D47A1),
+//            Color(0xFF1976D2),
+//            Color(0xFFFCE4EC),
+            Color(0xFFFCE4EC),
+            Color(0xFFFFFFFF),
+            Color(0xFFFFFFFF),
+            Color(0xFFFCE4EC),
+          ],
+        ),
+      ),
+//      color: Colors.cyan[700],
       padding: const EdgeInsets.fromLTRB(16, 10, 16, 10), //left, top, right, bottom
       child: Row(
         children: [
@@ -27,6 +40,7 @@ class PageSection extends StatelessWidget {
                   child: Text(
                     title,
                     style: TextStyle(
+                      fontSize:16,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -34,7 +48,7 @@ class PageSection extends StatelessWidget {
                 Text(
                   description,
                   style: TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                 ),
               ],
