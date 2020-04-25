@@ -2,8 +2,13 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:sjb/models/listing.dart';
+import 'package:sjb/screens/singlePosting/single_listing_screen.dart';
 
 class ListingsScreen extends StatelessWidget {
+
+
+
   @override
   Widget build(BuildContext context) => FutureBuilder(
       future: rootBundle.loadString('assets/data/sample_listings.json'),
@@ -12,22 +17,24 @@ class ListingsScreen extends StatelessWidget {
           return CircularProgressIndicator();
         } else {
           List<dynamic> data = json.decode(snapshot.data);
+          List<Posting> listings = [];
+          data.forEach((listing) => listings.add(Posting.fromJson(listing)));
           return Scaffold(
             body: ListView.builder(
-                itemCount: data.length,
+                itemCount: listings.length,
                 itemBuilder: (BuildContext context, int index) => ListTile(
                       leading: CircleAvatar(
                           backgroundColor: Colors.transparent,
-                          backgroundImage: AssetImage(data[index]['logo'])),
+                          backgroundImage: AssetImage(listings[index].logo)),
                       title: Text(
-                        data[index]['title'],
+                        listings[index].title,
                         style: TextStyle(fontWeight: FontWeight.w500),
                       ),
                       subtitle: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
                           Text(
-                            data[index]['employer'],
+                            listings[index].employer,
                             style: TextStyle(color: Colors.blueAccent),
                           ),
                         ],
@@ -36,7 +43,7 @@ class ListingsScreen extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             RaisedButton(
-                                onPressed: () => print("button pressed!"),
+                                onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => SingleListingScreen(listings[index]))),
                                 elevation: 1.0,
                                 color: Colors.grey,
                                 textColor: Colors.white,
