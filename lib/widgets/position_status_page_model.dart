@@ -72,6 +72,7 @@ class PositionStatusPageModelView extends StatelessWidget {
                     user.statusSelection[buttonIndex] = false;
                   }
                 }
+                // user.save();
                 Navigator.of(context).popAndPushNamed('/home');
               },
               isSelected: user.statusSelection,

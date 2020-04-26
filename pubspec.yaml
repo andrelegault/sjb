@@ -49,7 +49,7 @@ flutter:
   assets:
     - assets/images/
     - assets/images/logos/
-    - assets/data/sample_listings.json
+    - assets/data/
 
 
 
