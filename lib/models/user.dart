@@ -1,7 +1,12 @@
+import 'dart:convert';
+import 'dart:io';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 /// User model represents a user signing up
 class User extends ChangeNotifier {
+  static List<User> users = [];
   String email;
   String name;
   String password;
@@ -10,6 +15,9 @@ class User extends ChangeNotifier {
   StudyField studyField;
   PositionStatus positionStatus;
   String term;
+
+  static Future<List> loadJson() async =>
+      json.decode(await rootBundle.loadString('assets/data/sample_users.json'));
 
   bool loginState = false;
   final List<bool> educationSelection = [true, false];
@@ -29,7 +37,7 @@ class User extends ChangeNotifier {
       : email = data['email'],
         password = data['password'],
         name = data['name'],
-        dob = data['dob'],
+        dob = DateTime.parse(data['dob']),
         studyField = StudyField.values[data['studyField']],
         positionStatus = PositionStatus.values[data['positionStatus']];
 
@@ -45,6 +53,27 @@ class User extends ChangeNotifier {
     term = null;
     notifyListeners();
   }
+
+  /// save the data to file
+  void save() {
+    var file = File('../../assets/data/sample_users.json');
+    String json = jsonEncode(this);
+    file.writeAsString(json, mode: FileMode.append);
+  }
+
+  Map<String, dynamic> toJson() => {
+        'email': this.email,
+        'name': this.name,
+        'password': 'test123',
+        'dob': dob.toString(),
+        'city': city,
+        'field_of_study': this.studyField == StudyField.soen
+            ? 'Software Engineering'
+            : 'Finance',
+        'position_status': this.positionStatus == PositionStatus.full_time
+            ? 'full-time'
+            : PositionStatus.part_time,
+      };
 }
 
 enum StudyField {
