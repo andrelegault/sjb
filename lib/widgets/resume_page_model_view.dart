@@ -3,9 +3,7 @@ import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:provider/provider.dart';
 import 'package:sjb/models/page_model.dart';
-import 'package:sjb/models/user.dart';
 
 import 'name_page_model_view.dart';
 
