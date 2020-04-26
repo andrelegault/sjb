@@ -5,6 +5,7 @@ import 'package:sjb/widgets/education_page_model_view.dart';
 import 'package:sjb/widgets/location_page_model_view.dart';
 import 'package:sjb/widgets/name_page_model_view.dart';
 import 'package:sjb/widgets/position_status_page_model.dart';
+import 'package:sjb/widgets/resume_page_model_view.dart';
 
 class NewOnBoardingScreen extends StatelessWidget {
 // Define a corresponding State class.
@@ -36,6 +37,10 @@ class NewOnBoardingScreen extends StatelessWidget {
         iconAssetPath: 'assets/images/school.png',
         title: 'What do you study?'),
     PageModel(
+        heroAssetPath: 'assets/images/resume.jpg',
+        iconAssetPath: 'assets/images/resume.jpg',
+        title: 'Upload your resume'),
+    PageModel(
         heroAssetPath: 'assets/images/clock.png',
         iconAssetPath: 'assets/images/clock.png',
         title: 'Are you looking for a full-time or part-time position?'),
@@ -50,7 +55,8 @@ class NewOnBoardingScreen extends StatelessWidget {
           BirthdayPageModelView(pageModels[1], controller),
           LocationPageModelView(pageModels[2], controller),
           EducationPageModelView(pageModels[3], controller),
-          PositionStatusPageModelView(pageModels[4]),
+          ResumePageModelView(pageModels[4], controller),
+          PositionStatusPageModelView(pageModels[5]),
         ]));
   }
 }
