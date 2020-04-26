@@ -12,6 +12,7 @@ class NamePageModelView extends StatelessWidget {
   final Image icon;
   final String title;
   final FocusNode focusEmail = FocusNode();
+  final FocusNode focusPassword = FocusNode();
 
   NamePageModelView(PageModel pageModel, this.controller)
       : color = pageModel.color,
@@ -50,15 +51,13 @@ class NamePageModelView extends StatelessWidget {
                         color: Colors.black,
                         fontSize: 18.0,
                       )),
-                  TextField(
-                      focusNode: focusEmail,
+                  TextFormField(
                       textInputAction: TextInputAction.go,
+                      focusNode: focusEmail,
                       keyboardType: TextInputType.emailAddress,
-                      onSubmitted: (String data) {
+                      onFieldSubmitted: (String data) {
+                        focusPassword.requestFocus();
                         user.email = data;
-                        controller.nextPage(
-                            duration: Duration(milliseconds: 500),
-                            curve: Curves.ease);
                       },
                       decoration: InputDecoration(hintText: 'Email'),
                       textAlign: TextAlign.center,
@@ -66,6 +65,28 @@ class NamePageModelView extends StatelessWidget {
                         color: Colors.black,
                         fontSize: 18.0,
                       )),
+                  TextFormField(
+                    focusNode: focusPassword,
+                    keyboardType: TextInputType.text,
+                    obscureText: true,
+                    decoration: InputDecoration(
+                        border: InputBorder.none,
+                        labelText: 'Enter your password'),
+                    // The validator receives the text that the user has entered.
+                    onFieldSubmitted: (String data) {
+                      controller.nextPage(
+                          duration: Duration(milliseconds: 500),
+                          curve: Curves.ease);
+                    },
+                    validator: (value) {
+                      if (value.isEmpty) {
+                        return 'Please enter some text';
+                      } else {
+                        user.password = value;
+                      }
+                      return null;
+                    },
+                  ),
                 ],
               )),
         ]);
