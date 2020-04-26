@@ -32,6 +32,19 @@ class User extends ChangeNotifier {
         dob = data['dob'],
         studyField = StudyField.values[data['studyField']],
         positionStatus = PositionStatus.values[data['positionStatus']];
+
+  void clear() {
+    email = null;
+    name = null;
+    password = null;
+    dob = null;
+    city = null;
+    city = null;
+    studyField = null;
+    positionStatus = null;
+    term = null;
+    notifyListeners();
+  }
 }
 
 enum StudyField {

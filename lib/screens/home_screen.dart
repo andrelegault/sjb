@@ -21,8 +21,10 @@ class HomeScreen extends StatelessWidget {
                           Navigator.of(context).pushNamed('/listings')),
                   RaisedButton(
                       child: Text('Log out'),
-                      onPressed: () =>
-                          Navigator.of(context).pushReplacementNamed('/'))
+                      onPressed: () {
+                        Provider.of<User>(context, listen: false).clear();
+                        Navigator.of(context).pushReplacementNamed('/');
+                      }),
                 ]),
           ],
         )),
