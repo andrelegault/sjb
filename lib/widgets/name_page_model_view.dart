@@ -35,7 +35,7 @@ class NamePageModelView extends StatelessWidget {
                 fontSize: 34.0,
               )),
           Container(
-              width: MediaQuery.of(context).size.width / 3,
+              width: MediaQuery.of(context).size.width / 2.5,
               child: Column(
                 children: <Widget>[
                   TextField(
@@ -56,8 +56,8 @@ class NamePageModelView extends StatelessWidget {
                       focusNode: focusEmail,
                       keyboardType: TextInputType.emailAddress,
                       onFieldSubmitted: (String data) {
-                        focusPassword.requestFocus();
                         user.email = data;
+                        focusPassword.requestFocus();
                       },
                       decoration: InputDecoration(hintText: 'Email'),
                       textAlign: TextAlign.center,
