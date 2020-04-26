@@ -15,6 +15,19 @@ class LoginScreenState extends State<LoginScreen> {
   // Note: This is a `GlobalKey<FormState>`,
   // not a GlobalKey<MyCustomFormState>.
   final _formKey = GlobalKey<FormState>();
+  FocusNode focusPassword;
+
+  @override
+  void initState() {
+    super.initState();
+    focusPassword = FocusNode();
+  }
+
+  @override
+  void dispose() {
+    focusPassword.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) =>
@@ -31,8 +44,13 @@ class LoginScreenState extends State<LoginScreen> {
                         mainAxisSize: MainAxisSize.min,
                         children: <Widget>[
                           TextFormField(
+                            keyboardType: TextInputType.text,
+                            textInputAction: TextInputAction.go,
+                            onFieldSubmitted: (String data) {
+                              focusPassword.requestFocus();
+                            },
                             decoration: InputDecoration(
-                                labelText: 'Enter your username'),
+                                labelText: 'Enter your email'),
                             // The validator receives the text that the user has entered.
                             validator: (value) {
                               if (value.isEmpty) {
@@ -42,6 +60,8 @@ class LoginScreenState extends State<LoginScreen> {
                             },
                           ),
                           TextFormField(
+                            focusNode: focusPassword,
+                            keyboardType: TextInputType.text,
                             obscureText: true,
                             decoration: InputDecoration(
                                 border: InputBorder.none,
@@ -62,7 +82,8 @@ class LoginScreenState extends State<LoginScreen> {
                                 // you'd often call a server or save the information in a database.
                                 // Scaffold.of(context).showSnackBar(
                                 //     SnackBar(content: Text('Processing Data')));
-                                Navigator.of(context).pushReplacementNamed('/home');
+                                Navigator.of(context)
+                                    .pushReplacementNamed('/home');
                               }
                             },
                             child: Text('Login'),
