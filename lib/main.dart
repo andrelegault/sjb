@@ -8,6 +8,12 @@ import 'screens/listings_screen.dart';
 import 'screens/new_on_boarding_screen.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  User.loadJson().then((data) => data.forEach((userData) {
+        User user = User.fromJson(userData);
+        User.users.add(user);
+      }));
+
   runApp(ChangeNotifierProvider(
     create: (context) => User(),
     child: MyApp(),
