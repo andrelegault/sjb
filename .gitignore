@@ -26,3 +26,4 @@ doc/api/
 *.ipr
 *.iws
 .idea/
+.flutter-plugins*

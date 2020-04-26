@@ -1,0 +1,11 @@
+[
+    {
+        "name": "John Doe",
+        "email": "john@doe.com",
+        "password": "test",
+        "dob": "19900101",
+        "city": "Montreal",
+        "positionStatus": 0,
+        "studyField": 0
+    }
+]

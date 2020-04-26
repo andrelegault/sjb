@@ -1,0 +1,1179 @@
+[
+    {
+        "title": "Research Intern",
+        "employer": "Google Inc.",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200301",
+        "location": "Montreal",
+        "logo": "assets/images/logos/google.png",
+        "employer_description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies, alongside Amazon, Apple, and Microsoft.",
+        "requirements": {
+            "minimal": [
+                "Currently enrolled in a Bachelor's, Master's or PhD degree in Computer Science, Linguistics, Statistics, Biostatistics, Applied Mathematics, Operations Research, Economics, Natural Sciences or a related technical field.",
+                "Experience in one or more areas of computer science, such as Natural Language Understanding, Neural Networks, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Data Science, Privacy, Trust & Safety, Software Engineering or similar.",
+                "Experience with one or more general purpose programming languages including: C/C++, Java, MATLAB, Go or Python."
+            ],
+            "preferred": [
+                "Returning to a degree program after completion of the internship.",
+                "Relevant work experience, including internships, full time industry experience or as a researcher in a lab.",
+                "Ability to design and execute a research agenda.",
+                "Contribution to research communities and/or efforts, including publishing papers (i.e. being listed as author) in major conferences or journals."
+            ]
+        },
+        "responsibilities": [
+            "Participate in cutting edge research to develop solutions for real-world, large-scale problems."
+        ]
+    },
+    {
+        "title": "Software Developer Intern, BS, Fall",
+        "employer": "Google Inc.",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200302",
+        "expires": "2020/04/03",
+        "logo": "assets/images/logos/google.png",
+        "employer_description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies, alongside Amazon, Apple, and Microsoft.",
+        "requirements": {
+            "minimal": [
+                "Currently enrolled in a Bachelor's degree program in Computer Science, or related technical field.",
+                "Experience in Software Development and coding in a general purpose programming language.",
+                "Examples of coding in one of the following programming languages including but not limited to: C, C++, Java, JavaScript, or Python."
+            ],
+            "preferred": [
+                "Returning to a degree program after completion of the internship.",
+                "Previous tech internships or relevant work experience programming in one of the following languages, as well as demonstrated experience programming in two or more of the languages including but not limited to: C, C++, C#, Java, JavaScript, Go or Python.",
+                "Experience with Data Structures or Algorithms (i.e. completing a data structures or algorithms class, coursework, course projects, research, individual projects, internships, or other practical experience inside or outside of school or work (including open source hobby coding).",
+                "Experience working with some of the following: web application development, Unix/Linux environments, mobile application development, distributed and parallel systems, machine learning, information retrieval, natural language processing, networking, developing large software systems, and/or security software development.",
+                "Interest and ability to learn other coding languages as needed.",
+                "Ability to speak and write in English fluently and idiomatically."
+            ]
+        },
+        "responsibilities": [
+            "Apply knowledge gained in computer science courses to real-world problems.",
+            "Analyze information and evaluate results to choose the best solution to effectively solve problems.",
+            "Develop scripts to automate routine tasks.",
+            "Create and support an productive and innovative team. This includes working with peers, managers, and teams."
+        ]
+    },
+    {
+        "title": "Research Intern",
+        "employer": "Google Inc.",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200301",
+        "location": "Montreal",
+        "logo": "assets/images/logos/google.png",
+        "employer_description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies, alongside Amazon, Apple, and Microsoft.",
+        "requirements": {
+            "minimal": [
+                "Currently enrolled in a Bachelor's, Master's or PhD degree in Computer Science, Linguistics, Statistics, Biostatistics, Applied Mathematics, Operations Research, Economics, Natural Sciences or a related technical field.",
+                "Experience in one or more areas of computer science, such as Natural Language Understanding, Neural Networks, Computer Vision, Machine Learning, Deep Learning, Algorithmic Foundations of Optimization, Data Science, Privacy, Trust & Safety, Software Engineering or similar.",
+                "Experience with one or more general purpose programming languages including: C/C++, Java, MATLAB, Go or Python."
+            ],
+            "preferred": [
+                "Returning to a degree program after completion of the internship.",
+                "Relevant work experience, including internships, full time industry experience or as a researcher in a lab.",
+                "Ability to design and execute a research agenda.",
+                "Contribution to research communities and/or efforts, including publishing papers (i.e. being listed as author) in major conferences or journals."
+            ]
+        },
+        "responsibilities": [
+            "Participate in cutting edge research to develop solutions for real-world, large-scale problems."
+        ]
+    },
+    {
+        "title": "Software Engineering Internship (Android, Security, AWS)",
+        "employer": "Mobeewave",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200407",
+        "location": "Montreal",
+        "logo": "assets/images/logos/mobeewave.png",
+        "employer_description": "Do you have what it takes to work at the forefront of payment innovation? Join Mobeewave’s team and collaborate with global finance, technology and payment leaders on an acceptance solution that’s disrupting the payment space!",
+        "requirements": {
+            "minimal": [
+                "Computer Science/Network Engineering, Engineering, or Mathematics major",
+                "Experience programming in C, Java, Kotlin",
+                "No specific requirement for security, cryptography or even algorithmic complexity but the candidates must be eager to learn and experiment.",
+                "Ideally the candidates should be able to demonstrate some prior work on their own (GitHub) or during other internship."
+            ],
+            "preferred": []
+        },
+        "responsibilities": [
+            "Document and test new software features to expand on an existing proof of concept",
+            "Both side of our solution Android front end and AWS servers back end (C#) will be impacted",
+            "Assess new application ideas",
+            "Develop applications (coding, programming,…)"
+        ]
+    },
+    {
+        "title": "Software Intern",
+        "employer": "Maxim Integrated",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200402",
+        "location": "Montreal",
+        "logo": "assets/images/logos/maxim.png",
+        "employer_description": "Want to make a difference and be challenged every day? Then come to Maxim Integrated and be part of a team that pushes the boundaries of what’s possible.",
+        "requirements": {
+            "minimal": [
+                "Pursuing a Bachelor’s or Master's degree in Computer Science or related field"
+            ],
+            "preferred": [
+                "Use of Agile Methodology",
+                "C language",
+                "QT environment"
+            ]
+        },
+        "responsibilities": [
+            "Development of a tool to be used for financial scheme testing.",
+            "Analysis, requirements, specifications, conception, coding and testing.",
+            "Documentation of analysis, requirements and specifications"
+        ]
+    },
+    {
+        "title": "Software Intern",
+        "employer": "Matrox",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20191201",
+        "location": "Montreal",
+        "logo": "assets/images/logos/matrox.jpeg",
+        "employer_description": "Matrox Graphics is a leading manufacturer of specialized graphics solutions for professional markets such as finance, digital media, medical imaging, industrial, and enterprise computing. In-house design expertise, top-to-bottom manufacturing, and dedicated customer support make our solutions the premier choice in industries that require stable, high-reliability products.",
+        "requirements": {
+            "minimal": [
+                "Bachelor's degree student in electrical engineering, computer engineering or computer science",
+                "Having completed a minimum of 30 credits and a GPA equal to or greater than 2.9/4.3 or 2.6/4.0",
+                "Experience with C/C++ and associated programming and debugging tools",
+                "Experience with Windows/Linux utilities and user interface"
+            ],
+            "preferred": [
+                "Knowledge in the following areas is considered an asset: Windows/Linux device drivers",
+                "Well organized and detail oriented",
+                "Good verbal and written communication skills in French and English."
+            ]
+        },
+        "responsibilities": [
+            "You will be responsible for code design, development, testing, documentation, and maintenance as assigned by the Software Team Leader.",
+            "Design and implement utilities, or user interface",
+            "Maintain implemented code or existing code to correct reported problems",
+            "Develop tests to verify proper functioning of code",
+            "Document code design and implementation",
+            "Follow established coding procedures and guidelines"
+        ]
+    },
+    {
+        "title": "Software Development Internship",
+        "employer": "Planned",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200417",
+        "location": "Montreal",
+        "logo": "assets/images/logos/nologo.png",
+        "employer_description": "The future of corporate event planning. From idea to execution, all on a single platform. We're on a mission to disrupt a $500+ billion industry. ",
+        "requirements": {
+            "minimal": [
+                "Report directly to the VP engineering;",
+                "Work on developing internal tools and dashboards in Reactjs using Firebase;",
+                "Work with the development team to test new features;",
+                "Perform interactive and automated testing;",
+                "Ensure feature completeness by evaluating implemented features against required documents;"
+            ],
+            "preferred": [
+                "Organized: we're talking kind of obsessive attention to detail",
+                "Creative: clever problem solver, who is comfortable making decisions and/or collaborating with team members. Not afraid to ask questions, shout ideas or raise concerns.",
+                "Tactical: able to prioritize and juggle multiple projects at once",
+                "Flexible: Willing to work non-traditional hours including weekends/holidays",
+                "Funny: (Or at least receptive) You have a developed sense of humour and resilience",
+                "Excellent organization and communication skills",
+                "You're resourceful, think on your feet, get tech, and learn fast"
+            ]
+        },
+        "responsibilities": [
+            "This internship is for a 12 week program, starting in May 2020 with the opportunity or turning it into a full-time position. You must be available for the full 12 weeks to apply. The position is for 40 hours a week, full-time."
+        ]
+    },
+    {
+        "title": "Software Engineer Intern (iOS or Android)",
+        "employer": "AppX",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200301",
+        "location": "Montreal",
+        "logo": "assets/images/logos/appx.png",
+        "employer_description": "We are growing rapidly so you will enjoy working in a fast-paced, fun environment with a team dedicated to our mission to build the largest inluencer platform.",
+        "requirements": {
+            "minimal": [
+                "Create, modify, and test high-quality code",
+                "Collaborate closely with mobile engineering team to define, design, and ship new features.",
+                "Develop prototypes quickly to validate interactions and prove product designs.",
+                "Optimize applications to maximize speed and scale, factoring in mobile network latency and bandwidth constraints."
+            ],
+            "preferred": [
+                "Experience in mobile application development.",
+                "Solid programming experience in Swift and deep understanding of iOS.",
+                "Solid programming experience in Android and deep understanding of Android.",
+                "Solid understanding SQL and noSQL databases.",
+                "Solid understanding of software development processes and tools."
+            ]
+        },
+        "responsibilities": [
+            "A commitment to collaborative problem solving, sophisticated design, and the creation of quality products is essential."
+        ]
+    },
+    {
+        "title": "Internship, Consultant ERP & CRM Solutions",
+        "employer": "Big Bang ERP",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200408",
+        "location": "Montreal",
+        "logo": "assets/images/logos/bigbangerp.jpeg",
+        "employer_description": "We are a boutique consulting firm that helps businesses optimize and streamline their processes by implementing cutting-edge cloud ERP (Enterprise Resource Planning) and CRM (Customer Relationship Management) systems.",
+        "requirements": {
+            "minimal": [
+                "Completed at least 2 years of a Software Engineering, Information Technology, or a relevant discipline university degree",
+                "Experience with at least one programming language (C#, Java, Javascript)",
+                "High academic achievement and extra-curricular activities and projects",
+                "Strong problem-solving skills",
+                "Fluent in French and English"
+            ],
+            "preferred": [
+                "Strong problem-solving skills",
+                "Proven track record of effectively working in teams",
+                "Integrity, maturity, proactivity, critical thinking and creativity",
+                "Experience with Salesforce.com solutions, Apex and Visualforce development (optional)"
+            ]
+        },
+        "responsibilities": [
+            "Analyzing business processes and providing recommendations for improvements"
+        ]
+    },
+    {
+        "title": "Fullstack PHP Developer Internship",
+        "employer": "PlanetRate Inc",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200301",
+        "location": "Montreal",
+        "logo": "assets/images/logos/planetrate.jpeg",
+        "employer_description": "PlanetRate Inc (https://planetrate.com) is a new start-up based on a revolutionary and transformative platform for ratings and reviews. It allows people to provide feedback on specific topics and helps businesses to understand their customers.",
+        "requirements": {
+            "minimal": [
+                "Experience with Web Service APIs (SOAP/REST)",
+                "Knowledge of HTML / CSS / Javascript / Jquery / AJAX / XML",
+                "Experience with SQL (MySQL, PostgreSQL, etc) and performant database design."
+            ],
+            "preferred": [
+                "PHP and MySQL: 2 years",
+                "Building Web Applications: 2 years",
+                "Building APIs: 1 year"
+            ]
+        },
+        "responsibilities": [
+            "This is a one-of-a-kind opportunity to get in at the ground floor and join a fast-growing startup. If this sounds challenging, exciting and fun, we want to talk to you."
+        ]
+    },
+    {
+        "title": "Intern - Developer",
+        "employer": "SAP",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200324",
+        "location": "Montreal",
+        "logo": "assets/images/logos/sap.jpeg",
+        "employer_description": "SAP values the entrepreneurial spirit, fostering creativity and building lasting relationships with our employees. We know that a diverse and inclusive workforce keeps us competitive and provides opportunities for all. We believe that together we can transform industries, grow economics, lift up societies and sustain our environment. Because it’s the best-run businesses that make the world run better and improve people’s lives.",
+        "requirements": {
+            "minimal": [
+                "Bachelor’s or Master’s (ongoing or recently completed)",
+                "Field of study: computer engineering, software engineering or computer science",
+                "Know-how of the SAP software development process is appreciated"
+            ],
+            "preferred": [
+                "Knowledge of object-oriented programming (OOP)",
+                "Mastery of an object-oriented language (e.g. Java, JavaScript etc)",
+                "Ability to learn quickly and adapt to new environments",
+                "Strong interpersonal and communication skills",
+                "Functional English; French is an asset"
+            ]
+        },
+        "responsibilities": [
+            "As a software developer (intern), you will join a team of experienced colleagues and you will participate in designing and implementing new features"
+        ]
+    },
+    {
+        "title": "Data Engineer Internship",
+        "employer": "IVADO Labs",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200213",
+        "location": "Montreal",
+        "logo": "assets/images/logos/nologo.png",
+        "employer_description": "IVADO Labs is an AI-powered startup located in Montreal at the heart of one of the fastest growing AI community in the world. We work to identify and solve the most complex and highest value business problems that can be addressed through data science techniques. To achieve this, we provide data science, operations research and artificial intelligence solutions and software products to a broad range of industry and technology partners.",
+        "requirements": {
+            "minimal": [
+                "Participate in the design, code, create tests, and integrate new features and functionality",
+                "Participate in the design, build, and productize complex data pipelines",
+                "Learn the different AI/data science components/models in order for the algorithm to be properly translated in production code",
+                "Participate in scrum project meetings and update stories using project management tools",
+                "Apply CI/CD practices to prevent integration problems as well as ensure that the code is releasable at any point in time",
+                "Participate in the estimation of the Stories based on defined Acceptance Criteria and Definition of Done"
+            ],
+            "preferred": [
+                "You have some experience in Big Data (Hadoop, Spark, Hive)",
+                "Relevant work experience, including internships, full time industry experience or as a researcher in a lab.",
+                "You have a desire to become a full stack developer, fluent in one or more of the prominent tools/platforms and able to implement end-to-end solutions",
+                "You want to be exposed to AI/data science concepts"
+            ]
+        },
+        "responsibilities": [
+            "In this role, you will work in a client project environment with an AI-Agile Team composed of a Product Manager, consultant, Delivery Team Lead and Data Scientist and contribute to the translation of complex AI/data science algorithms into scalable software."
+        ]
+    },
+    {
+        "title": "Back-end Developer (Internship)",
+        "employer": "Workland",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "permanent",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200505",
+        "location": "Montreal",
+        "logo": "assets/images/logos/workland.jpeg",
+        "employer_description": "Workland welcomes about 20 interns each year and the Workland Internship Programis a strategic part of our development! Our internships offer interns an exciting path to contribute to cutting edge technology, innovative products and make a true business impact.",
+        "requirements": {
+            "minimal": [
+                "Who must be currently enrolled in a DEC, AEC, Certificate, Bachelor's, Master’s or PhD program in Computer Science or related program OR be eligible to partake in an internship program approved by the Ministry of Education",
+                "That has excellent skills in writing good quality codes",
+                "Who is analytical, collaborative and a multi-tasker"
+            ],
+            "preferred": [
+                "Python, PHP, Laravel/Lumen Framework, NodeJS",
+                "Ability to obtain and store information through MongoDB and SQL",
+                "Ability to design and execute a research agenda.",
+                "Docker, Unit Testing, Code versioning tools (Git/GitLab)"
+            ]
+        },
+        "responsibilities": [
+            "Your job will entail developing back end systems and integrating front-end elements built by your coworkers and design of user interfaces. You will also have the chance to work on accessibility and security compliance as well as monitoring the status of servers."
+        ]
+    },
+    {
+        "title": "Junior Software Developer Internship",
+        "employer": "Maya Heat Transfer Technologies",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200101",
+        "location": "Montreal",
+        "logo": "assets/images/logos/maya.png",
+        "employer_description": "Join a high-energy and dynamic company that is a recognized industry leader",
+        "requirements": {
+            "minimal": [
+                "Use Agile development principles (scrum, Kanban) to develop, maintain, and integrate custom engineering software tools and products;",
+                "Understand client workflows, requirements, and needs, and recommend solutions and best practices;",
+                "Design, implement, and deploy new functionality;"
+            ],
+            "preferred": [
+                "Having completed a minimum of 2 years towards an undergraduate degree in Computer Science /Engineering, or other related fields;",
+                "Have strong software programming skills (at least one of C#, Python, C++, VB, or Java) – familiarity with OOP is required;",
+                "Have excellent communication skills, both oral and written;",
+                "Is self-motivated"
+            ]
+        },
+        "responsibilities": [
+            "Work on various stimulating projects and on innovative technologies"
+        ]
+    },
+    {
+        "title": "Software Developer Internship (Montreal)",
+        "employer": "Hitachi ID",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20191201",
+        "location": "Montreal",
+        "logo": "assets/images/logos/hitachi.png",
+        "employer_description": "As one of many awards, Acquisition International awarded Hitachi ID Systems as Best in Privileged Access Management for 2019. Hitachi ID Systems is an innovative identity management specialist focused solely on developing, selling and deploying solutions that manage and control identities, entitlements and credentials.",
+        "requirements": {
+            "minimal": [
+                "Currently enrolled in a degree program, whose objective is a B.Sc in Software Engineering or Computer Science",
+                "Strong C++ and/or Angular developer (related languages or frameworks, such as C, Java, React, Jquery would be an asset)",
+                "Willingness to learn all technologies that compose the Hitachi ID Systems software stack",
+                "Familiar with SQL databases (writing SQL code) and AJAX UIs"
+            ],
+            "preferred": [
+                "Some familiarity with scripting languages such as Python, Perl or PowerShell",
+                "Experience designing and debugging complex systems",
+                "Familiarity with revision control systems (git, svn, etc.) and build automation (Make, Jam, Jenkins, etc.)",
+                "Ability to collaborate in a team, verbally and in writing, in English "
+            ]
+        },
+        "responsibilities": [
+            "Join an integrated developer/QA team to develop, support and expand enterprise identity and access management software, in C++/SQL/HTML5"
+        ]
+    },
+    {
+        "title": "Summer 2020 - Full Stack Developer",
+        "employer": "Societe Generale Corporate and Investment Banking - SGCIB",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200324",
+        "location": "Montreal",
+        "logo": "assets/images/logos/sgc.png",
+        "employer_description": "Societe Generale opened its Canadian headquarters in Montreal in 1974 to offer its financial services to corporations, financial institutions and governments. The Toronto and Calgary offices were opened in 1978 and 2006 respectively.We now employ over four hundred people, both in the traditional banking sector (investment banking, funds and trading activities) and in the field of information technology, with the opening of our SG Montreal Solutions Centre subsidiary which, thanks to its geographical location and its cultural diversity, provides computer support and development for the New York and Paris teams.",
+        "requirements": {
+            "minimal": [
+                "Hands on experience of object-oriented programming (Java or C# an asset)",
+                "Hands on experience with unit testing",
+                "Awareness of a wide variety of technologies (database, networking, operating systems, file formats, etc.)",
+                "Functional in French and English, both written and oral."
+            ],
+            "preferred": [
+                "Java, C#, Python, Angular, Bash, Powershell, etc.",
+                "SQL - SQL Server, Oracle, SQLite",
+                "Development and deployment toolchains (GIT, Jenkins, XL-Deploy, Docker, Kubernetes, etc.)",
+                "Linux, Windows"
+            ]
+        },
+        "responsibilities": [
+            "Implement various improvements to our existing systems",
+            "Design, implement and deploy new services and applications",
+            "Perform testing, Quality Assurance and User Acceptance Tests",
+            "Participate in brainstorms, code reviews and other activities with the team",
+            "Troubleshoot bugs, issues and production incidents",
+            "Create and maintain documentation"
+        ]
+    },
+    {
+        "title": "Intern, Software Developer, Cloud",
+        "employer": "Autodesk",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200320",
+        "location": "Montreal",
+        "logo": "assets/images/logos/autodesk.jpg",
+        "employer_description": "With Autodesk software, you have the power to Make Anything. The future of making is here, bringing with it radical changes in the way things are designed, made, and used. It’s disrupting every industry: architecture, engineering, and construction; manufacturing; and media and entertainment. With the right knowledge and tools, this disruption is your opportunity. Our software is used by everyone - from design professionals, engineers and architects to digital artists, students and hobbyists. We constantly explore new ways to integrate all dimensions of diversity across our employees, customers, partners, and communities. Our ultimate goal is to expand opportunities for anyone to imagine, design, and make a better world",
+        "requirements": {
+            "minimal": [
+                "Experience with large scale, distributed application design.",
+                "Detail oriented and passionate about building great software.",
+                "BS or MS in Computer Science or related technical field."
+            ],
+            "preferred": [
+                "Familiarity with web application development and JavaScript is a very strong plus.",
+                "Familiarity with HTML5 and modern web standards.Experience with continuous build and integration tools such as Ansible, Docker, Jenkins, and/or BuildBot will be a strong plus.",
+                "Experience with Node.js is a strong plus.",
+                "Experience contributing as a full-stack developer.",
+                "Experience with Git or equivalent distributed revision control systems"
+            ]
+        },
+        "responsibilities": [
+            "Implement prototypes and software components. Collaborate with team of excellent engineers to design, plan, develop, test, deliver and maintain complex features and new subsystems. Interact with product management teams to review and implement proposed designs. Participate and advise in code reviews."
+        ]
+    },
+    {
+        "title": "Intern - Frontend Software Developer",
+        "employer": "SAP",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200301",
+        "location": "Montreal",
+        "logo": "assets/images/logos/sap.jpeg",
+        "employer_description": "SAP values the entrepreneurial spirit, fostering creativity and building lasting relationships with our employees. We know that a diverse and inclusive workforce keeps us competitive and provides opportunities for all. We believe that together we can transform industries, grow economics, lift up societies and sustain our environment. Because it’s the best-run businesses that make the world run better and improve people’s lives.",
+        "requirements": {
+            "minimal": [
+                "Bachelor’s or Master’s (ongoing or recently completed)",
+                "Field of study: computer engineering, software engineering or computer science",
+                "Know-how of the SAP software development process is appreciated"
+            ],
+            "preferred": [
+                "HTML, CSS, DOM, JavaScript",
+                "experience with Typescript",
+                "experience with Angular (alternatively other front-end JavaScript framework)",
+                "experience with Node.js and NPM",
+                "experience with RESTful web services"
+            ]
+        },
+        "responsibilities": [
+            "As a software developer (intern), you will join a team of experienced colleagues and you will participate in designing and implementing new features."
+        ]
+    },
+    {
+        "title": "Internship - Software test Engineer",
+        "employer": "Aruba Networks",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200215",
+        "location": "Montreal",
+        "logo": "assets/images/logos/aruba.png",
+        "employer_description": "Hewlett Packard Entreprise, a world-wide leader in information technology and networking, is seeking a trainee in software engineering, electrical engineering, information technology or automated production for its wireless networking division in Montréal.",
+        "requirements": {
+            "minimal": [
+                "Knowledge of TCP/IP networks and technologiesInterest in IP and WiFi wireless networks",
+                "Asset: interest in Linux/UNIX"
+            ],
+            "preferred": [
+                "interest in Scripting (BASH).",
+                "experience in configuring and installing network equipment and software such as: routers, web servers, RADIUS servers, etc."
+            ]
+        },
+        "responsibilities": [
+            "Conduct software and networking tests on new products and new functionalities;",
+            "Prepare and configure the products to be tested;",
+            "Prepare and configure the networks used during the tests;",
+            "Reproduce certain problems reported by our clients."
+        ]
+    },
+    {
+        "title": "UX Developer Intern",
+        "employer": "Shopify",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200215",
+        "location": "Montreal",
+        "logo": "assets/images/logos/shopify.png",
+        "employer_description": "Shopify is a platform built for independent business owners of all shapes and sizes to start, sell, market and manage their businesses online, in-store, and everywhere between.",
+        "requirements": {
+            "minimal": [
+                "You have recently completed or are still pursuing a degree in commerce, marketing, social sciences or Human-Computer Interaction",
+                "You have a passion for, or experience in, user interface development, advertising, marketing and/or copywriting"
+            ],
+            "preferred": [
+                "You are proficient in French",
+                "You have experience with markup / scripting languages like HTML, CSS, or Javascript",
+                "You have experience with prototyping, wireframing, and flowchart tools"
+            ]
+        },
+        "responsibilities": [
+            "As a customer experience designer intern, you will be responsible for helping design and build compelling conversational experiences that delight users while bringing significant business benefits to our customers. Using our cutting-edge tools, you'll bring those ideas to life, launch them into the world and measure their benefits."
+        ]
+    },
+    {
+        "title": "Software Integration Engineer Intern",
+        "employer": "Avaya",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200224",
+        "location": "Montreal",
+        "logo": "assets/images/logos/avaya.png",
+        "employer_description": "Avaya Inc. (/əˈvaɪ.ə/) is an American multinational technology company headquartered in Santa Clara, California that provides multi-channel business communication solutions for customer and team engagement.",
+        "requirements": {
+            "minimal": [
+                "Minimum 4 months experience providing support or testing in a Windows or Cloud based software environment",
+                "Good written, oral communication, and interpersonal skills",
+                "Resourcefulness & ability to grasp new concepts quickly"
+            ],
+            "preferred": [
+                "Previous experience in a software development company",
+                "Bachelor degree or equivalent experience"
+            ]
+        },
+        "responsibilities": [
+            "Testing of cloud based and premise based software",
+            "Defining test strategy",
+            "Writing manual and automated testcases",
+            "Writing bug reports",
+            "Validating software fixes"
+        ]
+    },
+    {
+        "title": "Software Engineer in Test",
+        "employer": "NETINT Technologies Inc",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "permanent",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200222",
+        "location": "Montreal",
+        "logo": "assets/images/logos/netint.jpg",
+        "employer_description": "NETINT Technologies is a developer of intelligent silicon solutions for data-intensive applications. Its Codensity portfolio enables enterprise, cloud data centers and content providers to deploy high performance applications that they can scale without limit, while minimizing their data storage and processing costs.",
+        "requirements": {
+            "minimal": [
+                "At least 1 years of relevant work/coop/intern experiences",
+                "Storage related experience/knowledge",
+                "Quick learning"
+            ],
+            "preferred": [
+                "MS or BS in Computer Science, Software Engineering or Computer Engineer",
+                "Proficient in Python and C/C++ programming"
+            ]
+        },
+        "responsibilities": [
+            "Design and develop new features for automated test systems",
+            "Solve problems found in automated test system",
+            "Design test plans and implement automated test cases",
+            "Develop test tools",
+            "Product verification and trouble shooting"
+        ]
+    },
+    {
+        "title": "APM Summer Co-op",
+        "employer": "Nokia",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "temporary",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200222",
+        "location": "Montreal",
+        "logo": "assets/images/logos/nokia.jpeg",
+        "employer_description": "Nokia is a global leader in the technologies that connect people and things. With state-of-the-art software, hardware and services for any type of network, Nokia is uniquely positioned to help communication service providers, governments, and large enterprises deliver on the promise of 5G, the Cloud and the Internet of Things. ",
+        "requirements": {
+            "minimal": [
+                "Strong background in math and an analytical mindset",
+                "Passion for solving challenging deep learning problems",
+                "Ability to quickly qualitatively and quantitatively assess a problem"
+            ],
+            "preferred": [
+                "Telecommunications or related degrees from an accredited college/university.",
+                "Being familiar with MySQL, MongoDB",
+                "Previous research experience in Machine Learning specifically anomaly detection is a big plus"
+            ]
+        },
+        "responsibilities": [
+            "To solve challenging problems and build analytic products with real-world impact",
+            "To design and implement efficient and accurate databases suitable for large scale data",
+            "Work will be conducted jointly with team members from various background"
+        ]
+    },
+    {
+        "title": "Software Development Engineer",
+        "employer": "Amazon Web Services Canada ",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "permanent",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200101",
+        "location": "Montreal",
+        "logo": "assets/images/logos/amazon.png",
+        "employer_description": "Amazon is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. We are driven by the excitement of building technologies, inventing products, and providing services that change lives.",
+        "requirements": {
+            "minimal": [
+                "Enrolled in, or received a Bachelor’s Degree in Computer Science/Software Engineering",
+                "Strong understanding of object-oriented design, data structures, and algorithms",
+                "Proficient in one or more object-orientated programming languages (Java, C, C++, etc.)"
+            ],
+            "preferred": [
+                "Ability to effectively articulate technical challenges and solutions",
+                "Adept at handling ambiguous or undefined challenges through strong problem solving skills and effective communication"
+            ]
+        },
+        "responsibilities": [
+            "Collaborate with experienced cross-disciplinary Amazonians to develop, design, and bring to market innovative devices and services",
+            "Design and build innovative technologies in a large distributed computing environment and help lead fundamental changes in the industry",
+            "Create solutions to run predictions on distributed systems with exposure to cutting-edge technologies at incredible scale and speed",
+            "Build distributed storage, index, and query systems that are scalable, fault-tolerant, low cost, and easy to manage/use"
+        ]
+    },
+    {
+        "title": "Test & Automation Development Engineering",
+        "employer": "Celestica",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "permanent",
+        "field_of_study": "Software Engineering",
+        "listed_on": "20200215",
+        "location": "Montreal",
+        "logo": "assets/images/logos/celestica.png",
+        "employer_description": "Celestica is dedicated to delivering end-to-end product lifecycle solutions to drive our customers’ success. Through our simplified global operations network and information technology platform, we are solid partners who deliver informed, flexible solutions that enable our customers to succeed in the markets they serve.",
+        "requirements": {
+            "minimal": [
+                "Relevant University or personal project experience. Any form of work experience is preferred.",
+                "The ideal candidate is enrolled in an Electrical Engineering, Computer Engineering, Software Engineering or Computer Science program (3rd year)."
+            ],
+            "preferred": [
+                "HTML, XML, CSS, PHP",
+                "Python, Ruby, Java, Perl",
+                "MS Visual Studio .NET (C#, VB, ASP)"
+            ]
+        },
+        "responsibilities": [
+            "Support development of line automation tools, including robotics, vision systems and software controls",
+            "Work with a highly experienced engineering team to review and provide input on development designs",
+            "Implement software and hardware solutions including, HW procurement, integration, qualification and installment support for manufacturing test of electronics (for multiple global sites)"
+        ]
+    },
+    {
+        "title": "Payroll and Benefits Coordinator - South Shore",
+        "employer": "FED Finance Canada",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "permanent",
+        "field_of_study": "Finance",
+        "listed_on": "20200202",
+        "location": "Montreal",
+        "logo": "assets/images/logos/fed.png",
+        "employer_description": "Founded in 2001, Fed Finance is a recruitment agency that is specialized in accounting and finance positions.\nOur consultants are finance experts and speak your language. We select the best candidates for temporary and permanent positions.",
+        "requirements": {
+            "minimal": [
+                "Very good knowledge of Excel, Word and Outlook",
+                "Good ability to work in a team and a sense of customer service",
+                "Autonomy, initiative and organizational skills",
+                "Bilingualism (English / French)"
+            ],
+            "preferred": [
+                "DEP, AEC or DEC in an administrative field or other relevant fields",
+                "2 years of experience in payroll processing"
+            ]
+        },
+        "responsibilities": [
+            "Prepare, enter and validate the data necessary for the issuance of pay",
+            "Produce pay in accordance with the policies, rules and working agreements in force",
+            "Validate that the procedures applied comply with the laws in force",
+            "Respond to employees and managers for questions relating to pay administration",
+            "Keep employee files up to date"
+        ]
+    },
+    {
+        "title": "Financial Analyst",
+        "employer": "FED Finance Canada",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "permanent",
+        "field_of_study": "Finance",
+        "listed_on": "20200202",
+        "location": "Montreal",
+        "logo": "assets/images/logos/fed.png",
+        "employer_description": "Founded in 2001, Fed Finance is a recruitment agency that is specialized in accounting and finance positions.\nOur consultants are finance experts and speak your language. We select the best candidates for temporary and permanent positions.",
+        "requirements": {
+            "minimal": [
+                "Excellent analytical skills",
+                "Knowledge of accounting standards and financial controls",
+                "Excellent skills to work in a team and in a constantly changing environment"
+            ],
+            "preferred": [
+                "Experience in a similar role, an asset",
+                "Experience in configuring and installing network equipment and software such as: routers, web servers, RADIUS servers, etc."
+            ]
+        },
+        "responsibilities": [
+            "In a multi-currency context, participate in the production of monthly and quarterly consolidated financial statements, including the review of documents provided by the business units",
+            "Participate in the production of management reports for management and the board of directors",
+            "Participate in special projects aimed at improving the processes of the finance function and / or improvement projects with the various business partners",
+            "Participate in the budget process",
+            "Responsible for the production of statistical reports (USA and Canada)"
+        ]
+    },
+    {
+        "title": "Financial Services Junior Consultant",
+        "employer": "Sia Partners",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "permanent",
+        "field_of_study": "Finance",
+        "listed_on": "20200111",
+        "location": "Montreal",
+        "logo": "assets/images/logos/sia.png",
+        "employer_description": "Sia Partners is a next generation consulting firm focused on delivering superior value and tangible results to its clients as they navigate the digital revolution. With over 1,650 consultants in 16 countries, we will generate an annual turnover of USD 300 million for the current fiscal year.",
+        "requirements": {
+            "minimal": [
+                "Truly interested in consulting",
+                "Fluent in French and English"
+            ],
+            "preferred": [
+                "Ideally already have a successful first experience in consulting or at a leading financial institution",
+                "Your goal is to develop skills in the Financial Services industry"
+            ]
+        },
+        "responsibilities": [
+            "Conduct software and networking tests on new products and new functionalities;",
+            "Prepare and configure the products to be tested;",
+            "Prepare and configure the networks used during the tests;",
+            "Reproduce certain problems reported by our clients."
+        ]
+    },
+    {
+        "title": "CRM Data Specialist",
+        "employer": "Ubisoft",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "permanent",
+        "field_of_study": "Finance",
+        "listed_on": "20200225",
+        "location": "Montreal",
+        "logo": "assets/images/logos/ubisoft.png",
+        "employer_description": "With the largest in-house game development staff in the world, Ubisoft gathers more than 14,000 team members in more than 40 studios around the world. Ubisoft attracts the best and brightest from all continents with talent, creativity & innovation at its core.",
+        "requirements": {
+            "minimal": [
+                "Strong knowledge of SQL with a desire to improve",
+                "Ability to multitask and to work in a fast-paced environment",
+                "Willingness to learn new tools and data systems"
+            ],
+            "preferred": [
+                "Bachelor's degree in Management Information Systems, Finance, Engineering, Accounting, or other related quantitative fields",
+                "2-3 Years in an analytical field",
+                "Experience working in a technology company"
+            ]
+        },
+        "responsibilities": [
+            "Be the liaison between CRM and EnterpriseData/CRM Dev teams in regard to all data definition, deliverables and future data enhancements.",
+            "Drive constant data evolution by partnering up with data teams across the Ubisoft ecosystem (Data Science, DNA, ED",
+            "Challenge the status quo related to the data flow and current integration",
+            "RHave a deep understanding of the CRM Data architecture in relation to the business needs"
+        ]
+    },
+    {
+        "title": "Associate Corporate Financial Results and Reports",
+        "employer": "Bell Canada",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "permanent",
+        "field_of_study": "Finance",
+        "listed_on": "20200210",
+        "expires": "2020/04/28",
+        "logo": "assets/images/logos/bell.png",
+        "employer_description": "Canada’s largest communications provider, Bell is at the forefront in delivering world-leading broadband networks, the next-generation services consumers and businesses rely on, and the media content that Canadians want the most.",
+        "requirements": {
+            "minimal": [
+                "MS Excel intermediate level",
+                "English, fluent in the language with no significant limitation",
+                "French, working ability to carry out normal business communication in French",
+                "Good understanding of Finance/accounting principles"
+            ],
+            "preferred": [
+                "Knowledge of SAP",
+                "Understanding of provincial taxes",
+                "PC skills in Microsoft Office",
+                "Creative problem solving with ability to drive towards issue resolution"
+            ]
+        },
+        "responsibilities": [
+            "Validate input from various sources entered into FileMaker Pro DataBase",
+            "Create journal entries by compiling and validating data to record financial transactions",
+            "Work with controllers to ensure major sponsorship contracts commitments are outlined properly",
+            "Prepare and analyze general ledger account reconciliations to substantiate balances and explain variances",
+            "Manage Vendor invoices by validating invoices and communicating with Vendors on issue"
+        ]
+    },
+    {
+        "title": "Financial Analyst, Advertising Revenue Reporting and Analysis",
+        "employer": "Bell Canada",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "permanent",
+        "field_of_study": "Finance",
+        "listed_on": "20200218",
+        "location": "Montreal",
+        "logo": "assets/images/logos/bell.png",
+        "employer_description": "Canada’s largest communications provider, Bell is at the forefront in delivering world-leading broadband networks, the next-generation services consumers and businesses rely on, and the media content that Canadians want the most.",
+        "requirements": {
+            "minimal": [
+                "Strong data manipulation and data mining skills, with an acute attention to detail",
+                "Strong knowledge of Excel",
+                "Strong leadership and communication/presentation skills",
+                "Ability to work overtime as required by the business\n"
+            ],
+            "preferred": [
+                "Accounting designation or working towards (CA, CMA or CGA)",
+                "Knowledge of SAP, BI and BPC",
+                "Good understanding of the broadcasting/media industry"
+            ]
+        },
+        "responsibilities": [
+            "Oversee the full financial cycle from planning, forecasting to results - Responsible for month-end closure activities",
+            "Complete variance analysis against targets, budgets and forecast as well as identifying related risk and opportunities",
+            "Prime for providing on-going support for the Sales organization"
+        ]
+    },
+    {
+        "title": "Investment Representative",
+        "employer": "TD Bank",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "permanent",
+        "field_of_study": "Finance",
+        "listed_on": "20200203",
+        "location": "Montreal",
+        "logo": "assets/images/logos/td.png",
+        "employer_description": "TD is the sixth largest bank in North America by branches and serves over 22 million customers in three key businesses operating in a number of locations in financial centres around the globe.",
+        "requirements": {
+            "minimal": [
+                "College Diploma or Undergraduate Degree",
+                "Aptitude to successfully complete and pass required licensing (CSC, CPH & DFOL)"
+            ],
+            "preferred": [
+                "Are fully bilingual, French and English",
+                "Possess computer & multi-tasking skills",
+                "Have advanced knowledge of our business and understand the functions of our various business areas"
+            ]
+        },
+        "responsibilities": [
+            "Perform client instructions in accordance with industry and TD Direct Investing trading policy.",
+            "Plan for the future and contribute positively to the overall productivity of the team by maximizing individual productivity, availability and flexibility.",
+            "Deliver accurate, timely information on market activity and developments, company products and services and customer account information."
+        ]
+    },
+    {
+        "title": "Stock Trader",
+        "employer": "UTV INTERNATIONAL",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "permanent",
+        "field_of_study": "Finance",
+        "listed_on": "20200220",
+        "location": "Montreal",
+        "logo": "assets/images/logos/utv.png",
+        "employer_description": "UTV International and its predecessor VMC Right Track has manufactured tracked vehicles since 1995 & truck mounted digger derricks since 2004.",
+        "requirements": {
+            "minimal": [
+                "Bachelor's degree in Finance",
+                "Minimum of 5 years experience",
+                "Successful completion of Canadian Securities Course"
+            ],
+            "preferred": [
+                "CFA Level 2",
+                "Ability to manage complex situations while maintaining composure under pressure",
+                "CPH and Trader Training preferred"
+            ]
+        },
+        "responsibilities": [
+            "Day trading stocks",
+            "Manage a portfolio of stocks on an intraday basis",
+            "Prepare morning trading notes and end-of-day reports",
+            "Perform fundamental equity research and in-depth trade analysis"
+        ]
+    },
+    {
+        "title": "Internship - Planning & Financial Analysis",
+        "employer": "Ivanhoe Cambridge",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "temporary",
+        "field_of_study": "Finance",
+        "listed_on": "20200111",
+        "location": "Montreal",
+        "logo": "assets/images/logos/ivan.png",
+        "employer_description": "Ivanhoé Cambridge develops and invests in high-quality real estate properties, projects and companies that are shaping the urban fabric in dynamic cities around the world. It does so responsibly, with a view to generate long-term performance.",
+        "requirements": {
+            "minimal": [
+                "Enrolment in the first or second year of a bachelor’s degree in finance or accounting.",
+                "Excellent written and spoken communication skills.",
+                "Fluency in written and spoken French and English."
+            ],
+            "preferred": [
+                "Familiarity with Global Fund and Power BI software, an asset.",
+                "Attention to detail and solid interpersonal, analytical and prioritization skills.",
+                "Advanced proficiency in Word, Excel and PowerPoint."
+            ]
+        },
+        "responsibilities": [
+            "Conduct software and networking tests on new products and new functionalities;",
+            "Prepare and configure the products to be tested;",
+            "Prepare and configure the networks used during the tests;",
+            "Reproduce certain problems reported by our clients."
+        ]
+    },
+    {
+        "title": "Financial Customer Service Representative",
+        "employer": "Alorica",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "permanent",
+        "field_of_study": "Finance",
+        "listed_on": "20200212",
+        "location": "Montreal",
+        "logo": "assets/images/logos/alorica.png",
+        "employer_description": "At Alorica, we only do one thing – we make lives better. How? By creating insanely great experiences for customers — online, on the phone and through social media.",
+        "requirements": {
+            "minimal": [
+                "High School diploma or General Educational Development (GED) certificate",
+                "Is bilingual (English and Spanish)",
+                "Has previous customer service and/or collections experience preferred"
+            ],
+            "preferred": [
+                "Is team-focused",
+                "Is positive and can handle stress",
+                "Can maintain the highest level of confidentiality",
+                "Has the ability to multitask well"
+            ]
+        },
+        "responsibilities": [
+            "Accurately document and update customer records in the computer system",
+            "Remain calm and helpful even when dealing with upset customers",
+            "Escalate customer complaints and/or calls to your manager when necessary",
+            "When requested, process correspondences while following all relevant laws and guidelines"
+        ]
+    },
+    {
+        "title": "Finance Analyst",
+        "employer": "Technicolor",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "permanent",
+        "field_of_study": "Finance",
+        "listed_on": "20200115",
+        "location": "Montreal",
+        "logo": "assets/images/logos/technicolor.png",
+        "employer_description": "TV VFX is a segment under Technicolor Production Services Division. The segment comprises of 3 brands, MPC Film, Mr. X and Mill Film. MPC Film is a world leading Visual effects studio, working on the spectacular scenes and tiny details that make movies truly mind-blowing.",
+        "requirements": {
+            "minimal": [
+                "Experienced accounts analyst who is able to work accurately and at pace",
+                "Asset: strength in analysis and problem solving"
+            ],
+            "preferred": [
+                "This person must be able to effectively bridge the gap between the operational finance team and the shared service centre.",
+                "Be able to train and develop the shared service team in Mexico."
+            ]
+        },
+        "responsibilities": [
+            "Journal entry preparation",
+            "Extraction of data",
+            "Variance analysis",
+            "Completion of reporting",
+            "Uploading of forecast",
+            "Validation of results"
+        ]
+    },
+    {
+        "title": "Personal Banker",
+        "employer": "HSBC",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "permanent",
+        "field_of_study": "Finance",
+        "listed_on": "20200221",
+        "location": "Montreal",
+        "logo": "assets/images/logos/hsbc.png",
+        "employer_description": "HSBC is Canada’s leading international bank – there is no one like us in this market.\nOur ability to bring our global experience and perspective to evolving trends and issues in Canada has been a tremendous benefit to our clients. With our offer of unique banking solutions, as well as an extensive global network, no one is better placed to support internationally minded individuals and businesses.",
+        "requirements": {
+            "minimal": [
+                "Knowledge of TCP/IP networks and technologiesInterest in IP and WiFi wireless networks",
+                "Asset: interest in Linux/UNIX"
+            ],
+            "preferred": [
+                "interest in Scripting (BASH).",
+                "experience in configuring and installing network equipment and software such as: routers, web servers, RADIUS servers, etc."
+            ]
+        },
+        "responsibilities": [
+            "Act as first level escalation for handling customer inquiries.",
+            "Ensure compliance, security and fraud, operational and system controls in accordance with HSBC regulatory standards and government regulations.",
+            "Actively participate and assist with all Bank promotional programs, sales and direct marketing initiatives.",
+            "Put emphasis on counter services, risk operation and control."
+        ]
+    },
+    {
+        "title": "Financial Services Clerk",
+        "employer": "Employment and Social Development Canada",
+        "city": "Montreal",
+        "position_status": "part-time",
+        "job_type": "permanent",
+        "field_of_study": "Finance",
+        "listed_on": "20200115",
+        "expires": "2021/08/08",
+        "logo": "assets/images/logos/fsc.png",
+        "employer_description": "The Public Service of Canada is committed to building a skilled and diverse workforce that reflects the Canadians we serve. We promote employment equity and encourage you to indicate if you belong to one of the designated groups when you apply.",
+        "requirements": {
+            "minimal": [
+                "Minimum experience of 6 months of continuous employment within the same organization within the last 36 months.",
+                "Work experience in processing Accounts Payable within the public sector."
+            ],
+            "preferred": [
+                "Bilingual",
+                "Experience in configuring and installing network equipment and software such as: routers, web servers, RADIUS servers, etc.",
+                "Experience in providing client services by phone (ex.: call centers, survey, etc.)."
+            ]
+        },
+        "responsibilities": [
+            "Responsible for ensuring the accurate and timely processing of all activities.",
+            "Provide operational support as required.",
+            "Contribute to team-based approach in managing customer needs.",
+            "Participate in business development programs within area of specialty to enhance product knowledge and cross selling skills."
+        ]
+    },
+    {
+        "title": "Analyst - Trading, Hedging and Risk",
+        "employer": "Targray",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "permanent",
+        "field_of_study": "Finance",
+        "listed_on": "20200221",
+        "location": "Montreal",
+        "logo": "assets/images/logos/targray.png",
+        "employer_description": "Targray is a diversified multinational commodity and specialty materials company that markets a broad range of products and solutions for high-growth energy sectors. Established in 1987 in Montreal, Canada, our organization is a leading international provider of materials for solar and energy storage companies, and one of the largest physical traders and distributors of Biodiesel fuel in North America.",
+        "requirements": {
+            "minimal": [
+                "Knowledge of futures, options, and swaps.",
+                "1 to 5 years work experience.",
+                "Asset: Knowledge of SQL"
+            ],
+            "preferred": [
+                "CFA designation",
+                "Masters degree in Finance"
+            ]
+        },
+        "responsibilities": [
+            "Work with our Biodiesel Trading desk to hedge outstanding Biodiesel contracts by buying/selling futures contracts on NYMEX.",
+            "Collaborate with our Risk and IT Teams in Montreal and New Delhi to develop logic for the automation of new Risk related processes.",
+            "Work closely with Biofuels and Refined Products Trading Teams to solve trading problems and develop systems to identify new arbitrage opportunities."
+        ]
+    },
+    {
+        "title": "Commercial Analyst",
+        "employer": "Targray",
+        "city": "Montreal",
+        "position_status": "full-time",
+        "job_type": "permanent",
+        "field_of_study": "Finance",
+        "listed_on": "20200221",
+        "location": "Montreal",
+        "logo": "assets/images/logos/targray.png",
+        "employer_description": "Targray is a diversified multinational commodity and specialty materials company that markets a broad range of products and solutions for high-growth energy sectors. Established in 1987 in Montreal, Canada, our organization is a leading international provider of materials for solar and energy storage companies, and one of the largest physical traders and distributors of Biodiesel fuel in North America.",
+        "requirements": {
+            "minimal": [
+                "Strong understanding of Business is important as well as business experience",
+                "Knowledge of Microsoft Excel Required (Pivot tables, experience with cubes, data analysis toolpack, graphs), VBA Required",
+                "Data-driven and analytical"
+            ],
+            "preferred": [
+                "Bachelor's in business, Statistics, Actuarial Finance, or Mathematics",
+                "Professional experience: 3+ years in a similar key role"
+            ]
+        },
+        "responsibilities": [
+            "Help create an information advantage for Targray's trading and supply chain activities, while at the same time learning about the products and logistics solutions the company provides.",
+            "Contribute to market analysis and the development of new business.",
+            "Research and present recommendations to senior management on new market opportunities."
+        ]
+    }
+]
