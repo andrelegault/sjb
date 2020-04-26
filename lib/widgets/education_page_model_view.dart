@@ -76,7 +76,7 @@ class EducationPageModelView extends StatelessWidget {
                   if (buttonIndex == index) {
                     user.educationSelection[buttonIndex] = true;
                     user.studyField =
-                        index == 1 ? StudyField.finance : StudyField.soen;
+                        index == 0 ? StudyField.finance : StudyField.soen;
                   } else {
                     user.educationSelection[buttonIndex] = false;
                   }
