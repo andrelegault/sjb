@@ -18,7 +18,7 @@ class Listing {
 
   Listing.fromJson(Map<String, dynamic> data)
       : title = data['title'],
-        location = data['location'],
+        location = data['city'],
         employer = data['employer'],
         date = DateTime.parse(data['listed_on']),
         logo = data['logo'],
