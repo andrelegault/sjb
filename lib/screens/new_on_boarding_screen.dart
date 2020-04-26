@@ -38,7 +38,7 @@ class NewOnBoardingScreen extends StatelessWidget {
     PageModel(
         heroAssetPath: 'assets/images/clock.png',
         iconAssetPath: 'assets/images/clock.png',
-        title: 'Are you studying full-time or part-time?'),
+        title: 'Are you looking for a full-time or part-time position?'),
   ];
 
   @override
