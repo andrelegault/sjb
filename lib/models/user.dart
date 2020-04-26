@@ -54,6 +54,10 @@ class User extends ChangeNotifier {
     notifyListeners();
   }
 
+  void update() {
+    notifyListeners();
+  }
+
   /// save the data to file
   void save() {
     var file = File('data/sample_users.json');
