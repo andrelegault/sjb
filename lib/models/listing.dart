@@ -5,9 +5,9 @@ class Listing {
   String title;
   String location;
   String employer;
-  String term;
   String logo;
   String description;
+  DateTime date;
   Map<String, dynamic> reqs;
   List<dynamic> resp;
   String url;
@@ -16,7 +16,7 @@ class Listing {
         title = data['title'],
         location = data['location'],
         employer = data['employer'],
-        term = data['term'],
+        date = DateTime.parse(data['listed_on']),
         logo = data['logo'],
         description = data['employer_description'],
         reqs = data['requirements'],
@@ -27,7 +27,7 @@ class Listing {
       {this.title,
         this.location,
         this.employer,
-        this.term,
+        this.date,
         this.logo,
         this.description,
         this.reqs,
