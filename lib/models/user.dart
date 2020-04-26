@@ -56,7 +56,7 @@ class User extends ChangeNotifier {
 
   /// save the data to file
   void save() {
-    var file = File('../../assets/data/sample_users.json');
+    var file = File('data/sample_users.json');
     String json = jsonEncode(this);
     file.writeAsString(json, mode: FileMode.append);
   }
