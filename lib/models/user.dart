@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:path_provider/path_provider.dart';
 
 /// User model represents a user signing up
 class User extends ChangeNotifier {
@@ -59,8 +60,9 @@ class User extends ChangeNotifier {
   }
 
   /// save the data to file
-  void save() {
-    var file = File('data/sample_users.json');
+  void save() async {
+    var dir = await getApplicationDocumentsDirectory();
+    var file = File('${dir.path}/assets/data/sample_users.json');
     String json = jsonEncode(this);
     file.writeAsString(json, mode: FileMode.append);
   }
