@@ -2,7 +2,9 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:provider/provider.dart';
 import 'package:sjb/models/listing.dart';
+import 'package:sjb/models/user.dart';
 import 'package:sjb/screens/singlePosting/single_listing_screen.dart';
 
 class ListingsScreen extends StatelessWidget {
@@ -13,43 +15,53 @@ class ListingsScreen extends StatelessWidget {
         if (!snapshot.hasData) {
           return Container(child: CircularProgressIndicator());
         } else {
+          User user = Provider.of<User>(context);
           List<dynamic> data = json.decode(snapshot.data);
-          List<Listing> listings = [];
-          data.forEach((listing) => listings.add(Listing.fromJson(listing)));
+          List<Listing> matchingListings = [];
+          data.forEach((data) {
+            Listing listing = Listing.fromJson(data);
+            if (user.positionStatus == listing.positionStatus &&
+                user.studyField == listing.studyField) {
+              matchingListings.add(listing);
+            }
+          });
           return Scaffold(
             body: ListView.builder(
-                itemCount: listings.length,
+                itemCount: matchingListings.length,
                 itemBuilder: (BuildContext context, int index) => ListTile(
                       leading: CircleAvatar(
                           backgroundColor: Colors.transparent,
-                          backgroundImage: AssetImage(listings[index].logo)),
+                          backgroundImage:
+                              AssetImage(matchingListings[index].logo)),
                       title: Text(
-                        listings[index].title,
+                        matchingListings[index].title,
                         style: TextStyle(fontWeight: FontWeight.w500),
                       ),
                       subtitle: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
                           Text(
-                            listings[index].employer,
+                            matchingListings[index].employer,
                             style: TextStyle(color: Colors.blueAccent),
                           ),
                         ],
                       ),
-                      trailing: Row(mainAxisSize: MainAxisSize.min, children: <
-                          Widget>[
-                        RaisedButton(
-                            onPressed: () => Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) =>
-                                        SingleListingScreen(listings[index]))),
-                            elevation: 1.0,
-                            color: Colors.grey,
-                            textColor: Colors.white,
-                            child: Text("View")),
-                        Icon(Icons.keyboard_arrow_right)
-                      ]),
+                      trailing: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            RaisedButton(
+                                onPressed: () => Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) =>
+                                            SingleListingScreen(
+                                                matchingListings[index]))),
+                                elevation: 1.0,
+                                color: Colors.grey,
+                                textColor: Colors.white,
+                                child: Text("View")),
+                            Icon(Icons.keyboard_arrow_right)
+                          ]),
                     )),
             bottomNavigationBar: BottomAppBar(
               shape: const CircularNotchedRectangle(),
