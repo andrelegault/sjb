@@ -23,7 +23,7 @@ class HomeScreen extends StatelessWidget {
                       child: Text('Log out'),
                       onPressed: () {
                         Provider.of<User>(context, listen: false).clear();
-                        Navigator.of(context).pushReplacementNamed('/');
+                        Navigator.of(context).pop();
                       }),
                 ]),
           ],
