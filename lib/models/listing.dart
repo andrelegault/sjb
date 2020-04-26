@@ -1,7 +1,7 @@
 import 'dart:core';
 
 /// Model that represents a job posting.
-class Posting {
+class Listing {
   String title;
   String location;
   String employer;
@@ -12,7 +12,7 @@ class Posting {
   List<dynamic> resp;
   String url;
 
-  Posting.fromJson(Map<String, dynamic> data):
+  Listing.fromJson(Map<String, dynamic> data):
         title = data['title'],
         location = data['location'],
         employer = data['employer'],
@@ -23,7 +23,7 @@ class Posting {
         resp = data['responsibilities'],
         url = data['link'];
 
-  Posting(
+  Listing(
       {this.title,
         this.location,
         this.employer,

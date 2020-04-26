@@ -14,8 +14,8 @@ class ListingsScreen extends StatelessWidget {
           return Container(child: CircularProgressIndicator());
         } else {
           List<dynamic> data = json.decode(snapshot.data);
-          List<Posting> listings = [];
-          data.forEach((listing) => listings.add(Posting.fromJson(listing)));
+          List<Listing> listings = [];
+          data.forEach((listing) => listings.add(Listing.fromJson(listing)));
           return Scaffold(
             body: ListView.builder(
                 itemCount: listings.length,

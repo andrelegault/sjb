@@ -1,17 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:sjb/screens/singlePosting/page_section.dart';
 import '../../models/listing.dart';
 
 class SingleListingScreen extends StatelessWidget {
   static const routeName = 'single-post';
+  final DateFormat fmt = DateFormat.yMMMd();
 
-  final Posting posting;
-  SingleListingScreen(this.posting);
+  final Listing listing;
+  SingleListingScreen(this.listing);
 
   @override
   Widget build(BuildContext context) {
-    String minRequirements = _group(posting.reqs, 'minimal');
-    String prefRequirements = _group(posting.reqs, 'preferred');
+    String minRequirements = _group(listing.reqs, 'minimal');
+    String prefRequirements = _group(listing.reqs, 'preferred');
 
     void _showDialog() {
       showDialog(
@@ -35,22 +37,22 @@ class SingleListingScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(posting.employer),
+        title: Text(listing.employer),
       ),
       body: SingleChildScrollView(
           child: Column(children: [
 //                ButtonSection(color: Colors.black),
-        PageSection(title: 'Position', description: posting.title),
-        PageSection(title: "Job Location", description: posting.location),
-        PageSection(title: "Term", description: posting.term),
+        PageSection(title: 'Position', description: listing.title),
+        PageSection(title: "Job Location", description: listing.location),
+        PageSection(title: "Date", description: fmt.format(listing.date)),
         PageSection(
-            title: 'Company Description', description: posting.description),
-        PageSection(title: 'Responsabilities', description: posting.resp[0]),
+            title: 'Company Description', description: listing.description),
+        PageSection(title: 'Responsabilities', description: listing.resp[0]),
         PageSection(
             title: 'Minimal Requirements', description: minRequirements),
         PageSection(
             title: 'Preferred Qualifications', description: prefRequirements),
-//                PageSection(title: 'Link', description: posting.url),
+//                PageSection(title: 'Link', description: listing.url),
       ])),
       floatingActionButton: Padding(
         padding: const EdgeInsets.only(bottom: 20),
@@ -66,8 +68,8 @@ class SingleListingScreen extends StatelessWidget {
 
   String _group(Map<String, dynamic> requirements, String category) {
     String groupRequirements = '';
-    for (int i = 0; i < posting.reqs[category].length; i++) {
-      groupRequirements += ('\n- ' + posting.reqs[category][i] + '\n');
+    for (int i = 0; i < listing.reqs[category].length; i++) {
+      groupRequirements += ('\n- ' + listing.reqs[category][i] + '\n');
     }
 
     return groupRequirements;
